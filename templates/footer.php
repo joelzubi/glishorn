@@ -1,3 +1,3 @@
-<div class="container-fluid">
+<div class="container-fluid bg-danger">
     <p>Glis</p>
 </div>
