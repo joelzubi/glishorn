@@ -34,6 +34,11 @@
     </div>
 </nav>
 
+<!-- Page title -->
+<div class="jumbotron">
+    <h1>Musikgesellschaft Glishorn Glis</h1>
+</div>
+
 <!-- Inofficial alert -->
 <div class="container">
     <div class="alert alert-danger">
@@ -44,13 +49,9 @@
     </div>
 </div>
 
-<!-- Page title -->
-<div class="jumbotron">
-    <h1>Musikgesellschaft Glishorn Glis</h1>
-</div>
-
 <!-- Corona alert -->
-<div class="container py-3 my-3 bg-danger text-white">
+<!-- Hidden after April 12... -->
+<div id="coronaAlert" class="container py-3 my-3 bg-danger text-white">
     <h1>Coronavirus</h1>
     <p>Aufgrund der aktuellen Lage wurden die Konzerte der MG Glishorn und JM Glis
         abgesagt. Auch der Probebetrieb sowie interne Anlässe sind bis zum 19. April
@@ -71,9 +72,12 @@
 </div>
 
 <!-- Impressum -->
-<div class="container-fluid bg-danger text-white">
+<footer class="container-fluid bg-danger text-white">
     <p>Glis</p>
-</div>
+</footer>
+
+<!-- Script to hide outdated content -->
+<script src="js/outdated.js"></script>
 
 <!-- Bootstrap Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
