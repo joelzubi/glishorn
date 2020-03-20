@@ -11,6 +11,7 @@
 
 <!-- A little experiment -->
 
+<?php include('templates/header.php') ?>
 <nav class="navbar navbar-expand-sm bg-white navbar-light sticky-top">
     <a class="navbar-brand" href="#">
         <img src="src/brand.jpeg" alt="MG Glishorn Logo" style="width: 64px">
