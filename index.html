@@ -73,14 +73,40 @@
 </div>
 <script>expire("coronaAlert", "2020-04-12");</script>
 
-<!-- Example content -->
-<div class="container-sm">
-    <div class="card flyer">
-        <img class="card-img-top" src="src/example_poster_lg.jpg" alt="Konzertflyer">
-        <div class="card-body">
-            <h4 class="card-title">Konzert</h4>
-            <p class="card-text">Lorem ipsum.</p>
+<!-- Content -->
+<div class="container">
+    <div class="row">
+
+        <!-- Balcony -->
+        <div id="omvBalcony" class="col">
+            <div class="card flyer mb-4">
+                <img class="card-img-top" src="src/balcony.png" alt="Musik vom Balkon">
+                <div class="card-body">
+                    <h4 class="card-title">Musik vom Balkon</h4>
+                    <p class="card-text">Als Zeichen der Solidarität fordert der OMV alle
+                        Musikantinnen und Musikanten auf, ihr Musikspiel am Freitag, 27. März
+                        2020 um 20:00 Uhr auf dem Balkon oder zum Fenster hinaus erklingen zu
+                        lassen.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.omv-vs.ch/aktuelles/absage-der-verbandsfeste-2020"
+                       class="card-link stretched-link">Mitteilung des OMV</a>
+                </div>
+            </div>
         </div>
+        <script>expire("omvBalcony", "2020-03-27");</script>
+
+        <!-- Example content -->
+        <div class="col">
+            <div class="card flyer">
+                <img class="card-img-top" src="src/example_poster_lg.jpg" alt="Konzertflyer">
+                <div class="card-body">
+                    <h4 class="card-title">Konzert</h4>
+                    <p class="card-text">Lorem ipsum.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
