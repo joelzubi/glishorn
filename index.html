@@ -15,6 +15,9 @@
 </head>
 <body>
 
+<!-- Script to hide outdated content -->
+<script src="js/outdated.js"></script>
+
 <!-- top image -->
 <div class="jumbotron-fluid top-image"></div>
 
@@ -56,7 +59,6 @@
 </div>
 
 <!-- Corona alert -->
-<!-- Hidden after April 12... -->
 <div id="coronaAlert" class="jumbotron-fluid px-3 py-5 my-3 bg-danger text-white">
     <div class="container">
         <h1>Coronavirus</h1>
@@ -69,6 +71,7 @@
         <a href="corona.html" class="btn btn-secondary">Mehr</a>
     </div>
 </div>
+<script>expire("coronaAlert", "2020-04-12");</script>
 
 <!-- Example content -->
 <div class="container-sm">
@@ -85,9 +88,6 @@
 <footer class="container-fluid p-3 my-3 text-center bg-light">
     <p>3902 Glis</p>
 </footer>
-
-<!-- Script to hide outdated content -->
-<script src="js/outdated.js"></script>
 
 <!-- Bootstrap Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

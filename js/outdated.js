@@ -1,9 +1,9 @@
-const coronaAlert = document.getElementById("coronaAlert");
-expire(coronaAlert, new Date("2020-04-12"));
-
 function expire(htmlContent, expiryDate) {
-    const now = new Date();
+    htmlContent = document.getElementById(htmlContent);
+    expiryDate = new Date(expiryDate);
     expiryDate.setDate(expiryDate.getDate() + 1);
+    const now = new Date();
+
     if (expiryDate.getTime() < now.getTime()) {
         htmlContent.style.display = "none";
     }
