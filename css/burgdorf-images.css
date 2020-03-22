@@ -4,17 +4,10 @@ body, html {
 
 .big_image {
     height: 100%;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* Turn off parallax scrolling for all tablets and phones. */
-@media only screen and (max-device-width: 1366px) {
-    .big_image {
-        background-attachment: scroll;
-    }
 }
 
 #zerzubenCar {
