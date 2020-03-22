@@ -4,6 +4,7 @@ body, html {
 
 .big_image {
     height: 150px;
+    background-image: url("../src/glishorn.jpg");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
