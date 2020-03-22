@@ -4,8 +4,12 @@
     background-size: 100% auto;
 }
 
-.article {
+.field {
     max-width: 600px;
+}
+
+.article p {
+    text-align: justify;
 }
 
 .memorable {
