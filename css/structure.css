@@ -1,7 +1,7 @@
 .top-image {
     height: 150px;
     background: url("../src/glishorn.jpg") fixed top no-repeat;
-    background-size: auto 30%;
+    background-size: 100% auto;
 }
 
 .field {
