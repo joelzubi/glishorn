@@ -3,10 +3,8 @@ body, html {
 }
 
 .big_image {
-    height: 100px;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
+    height: 150px;
+    background: url("../src/glishorn.jpg") fixed top no-repeat;
     background-size: 100% auto;
 }
 
