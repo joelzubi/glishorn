@@ -2,7 +2,7 @@ body, html {
     height: 100%;
 }
 
-.bigImage {
+.big_image {
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -26,6 +26,6 @@ body, html {
     background-image: url("../src/jm_burgdorf_altpraesidenten.jpeg");
 }
 
-#jmBurgdorfDominicTrophy {
+#jmBurgdorfTrophy {
     background-image: url("../src/jm_burgdorf_pokale.jpeg");
 }
