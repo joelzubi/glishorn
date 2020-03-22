@@ -3,11 +3,11 @@ body, html {
 }
 
 .big_image {
-    height: 100px;
-    background-attachment: fixed;
-    background-position: top;
+    height: 150px;
+    background-attachment: scroll;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 #zerzubenCar {
