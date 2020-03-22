@@ -4,8 +4,11 @@ body, html {
 
 .top-image {
     height: 150px;
-    background: url("../src/glishorn.jpg") fixed center no-repeat;
-    background-size: 100% auto;
+    background-image: url("../src/glishorn.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .field {
