@@ -3,7 +3,7 @@ body, html {
 }
 
 .big_image {
-    height: 100%;
+    height: 300px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
