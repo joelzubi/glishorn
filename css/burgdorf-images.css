@@ -10,6 +10,13 @@ body, html {
     background-size: cover;
 }
 
+/* Turn off parallax scrolling for all tablets and phones. */
+@media only screen and (max-device-width: 1366px) {
+    .big_image {
+        background-attachment: scroll;
+    }
+}
+
 #zerzubenCar {
     background-image: url("../src/zerzuben_car.jpg");
 }
