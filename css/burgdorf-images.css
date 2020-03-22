@@ -3,7 +3,7 @@ body, html {
 }
 
 .big_image {
-    width: 100%;
+    height: 100%;
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
