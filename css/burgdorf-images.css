@@ -3,18 +3,25 @@ body, html {
 }
 
 .big_image {
-    height: 100%;
-    background-attachment: fixed;
+    height: 50%;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media screen and (max-device-width: 1366px) and (orientation: portrait) {
+/* Parallax for large screens */
+@media screen and (min-device-width: 1366px) {
     .big_image {
-        height: 50%;
-        background-attachment: scroll;
+        height: 100%;
+        background-attachment: fixed;
+    }
+}
+
+/* Large images for rotated phones */
+@media screen and (orientation: landscape) {
+    .big_image {
+        height: 100%
     }
 }
 
