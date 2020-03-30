@@ -1,5 +1,5 @@
 <?php
-    function header() {
+    function topImage() {
         return '<div class="jumbotron-fluid top-image"></div>';
     }
 
