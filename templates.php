@@ -1,6 +1,6 @@
 <?php
     function topImage() {
-        return '<div class="jumbotron-fluid top-image"></div>';
+        return '<div id="topImage" class="jumbotron-fluid"></div>';
     }
 
     function navbar($current_page) {

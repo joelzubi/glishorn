@@ -11,6 +11,9 @@
 
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/header.css">
 </head>
 
 <body>
