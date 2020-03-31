@@ -1,4 +1,4 @@
-<?php declare(strict_types=1); require 'templates.php' ?>
+<?php declare(strict_types=1)?>
 <!DOCTYPE html>
 <html lang="de-CH">
 <head>
@@ -17,14 +17,16 @@
 </head>
 
 <body>
-<?php echo topImage() ?>
-<?php echo navbar('about') ?>
-<?php echo title('Musikgesellschaft &laquo;Glishorn&raquo; Glis') ?>
-<?php echo unofficial_alert() ?>
+<?php include 'templates/header.php'?>
+<?php include 'templates/navbar_main.php' ?>
+<div class='container'>
+    <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
+</div>
+<?php include 'templates/unofficial_alert.php'?>
 
 <!-- Content goes here -->
 
-<?php echo footer() ?>
+<?php include 'templates/footer.php'?>
 
 <!-- Bootstrap Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
