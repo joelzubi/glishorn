@@ -18,7 +18,7 @@
                     <ul class="navbar-nav">';
 
         $pages = array(
-            array('index', 'Home'),
+            array('index', 'Startseite'),
             array('about', 'Über uns'),
             array('members', 'Mitglieder'),
             array('photos', 'Fotos'),
