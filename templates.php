@@ -6,7 +6,7 @@
     function navbar($current_page) {
         $navbar =
             '<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href=".">
                     <img src="src/index_images/brand.jpeg" alt="MG Glishorn Logo" style="width: 64px">
                 </a>
 
