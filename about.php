@@ -24,7 +24,23 @@
 </div>
 <?php include 'templates/unofficial_alert.php'?>
 
-<!-- Content goes here -->
+<!-- Description of MG Glishorn -->
+<div class="container">
+    <p>
+        Wir sind ein Blasorchester-Verein der 1. Stärkeklasse mit 55 Aktiv-Mitgliedern.
+    </p>
+    <p>
+        Wir sind Mitglied des
+        <a href="https://www.kmvw.ch/de/mitglieder/verbaende">Bezirksmusikverbands Brig</a>,
+        des <a href="https://www.omv-vs.ch/">Oberwalliser Musikverbands</a> und des
+        <a href="https://www.windband.ch/de/home/">Schweizerischen Blasmusikverbands</a>.
+    </p>
+    <p>
+        Unser Nachwuchs-Verein ist die
+        <a href="http://www.jugendmusik-glis.ch/">Jugendmusik Glis</a>, derzeit
+        amtierende Schweizermeisterin in der Konzert- und Parademusik.
+    </p>
+</div>
 
 <?php include 'templates/footer.php'?>
 
