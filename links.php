@@ -29,7 +29,7 @@
     <h4>Musikgesellschaften</h4>
     <div class="row">
         <div class="col-md-4 my-1">
-            <div class="thumbnail">
+            <div class="thumbnail" style="height: 1000px;">
                 <a href="http://mgbryscheralp.ch/wp/" type="button" class="btn btn-outline-primary btn-block">
                     <img src="src/bands/mund.jpg" alt="MG Bryscheralp" style="width: 100%;">
                     <div class="caption">
