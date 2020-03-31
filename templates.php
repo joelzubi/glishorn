@@ -17,54 +17,24 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">';
 
-        if ($current_page == 'index') {
-            $navbar .= '<li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>';
-        } else {
-            $navbar .= '<li class="nav-item">
-                            <a class="nav-link" href="index.php">Home</a>
-                        </li>';
-        }
+        $pages = array(
+            array('index', 'Home'),
+            array('about', 'Über uns'),
+            array('members', 'Mitglieder'),
+            array('photos', 'Fotos'),
+            array('links', 'Links')
+        );
 
-        if ($current_page == 'about') {
-            $navbar .= '<li class="nav-item active">
-                            <a class="nav-link" href="#">Über uns</a>
-                        </li>';
-        } else {
-            $navbar .= '<li class="nav-item">
-                            <a class="nav-link" href="about.php">Über uns</a>
-                        </li>';
-        }
-
-        if ($current_page == 'members') {
-            $navbar .= '<li class="nav-item active">
-                            <a class="nav-link" href="#">Mitglieder</a>
-                        </li>';
-        } else {
-            $navbar .= '<li class="nav-item">
-                            <a class="nav-link" href="members.php">Mitglieder</a>
-                        </li>';
-        }
-
-        if ($current_page == 'photos') {
-            $navbar .= '<li class="nav-item active">
-                            <a class="nav-link" href="#">Fotos</a>
-                        </li>';
-        } else {
-            $navbar .= '<li class="nav-item">
-                            <a class="nav-link" href="photos.php">Fotos</a>
-                        </li>';
-        }
-
-        if ($current_page == 'links') {
-            $navbar .= '<li class="nav-item active">
-                            <a class="nav-link" href="#">Links</a>
-                        </li>';
-        } else {
-            $navbar .= '<li class="nav-item">
-                            <a class="nav-link" href="links.php">Links</a>
-                        </li>';
+        foreach ($pages as $page) {
+            if ($current_page == $page[0]) {
+                $navbar .= "<li class='nav-item active'>
+                                <a class='nav-link' href='#'>$page[1]</a>
+                            </li>";
+            } else {
+                $navbar .= "<li class='nav-item'>
+                                <a class='nav-link' href='$page[0].php'>$page[1]</a>
+                            </li>";
+            }
         }
 
         $navbar .= '</ul>
