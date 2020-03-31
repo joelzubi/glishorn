@@ -24,7 +24,21 @@
 </div>
 <?php include '../templates/unofficial_alert.php'?>
 
-<!-- Content goes here -->
+<!-- Corona info -->
+<div class="container">
+    <p>
+        Die Jahreskonzerte der <abbr title="Musikgesellschaft">MG</abbr> Glishorn
+        und <abbr title="Musikgesellschaft">JM</abbr> Glis sind abgesagt, ebenso
+        das Oberwalliser Musikfest in Lalden sowie sämtliche Bezirksmusikfeste im
+        Oberwallis.
+    </p>
+    <p>
+        Unser Ziel bleibt weiterhin, das Vereinslotto zu einem späteren Zeitpunkt
+        in den Restaurants von Glis durchzuführen. Auch um diese nach der Krise
+        etwas zu unterstützen. Die gekauften Lottokarten bleiben auf jeden Fall
+        gültig.
+    </p>
+</div>
 
 <?php include '../templates/footer.php'?>
 
