@@ -3,7 +3,7 @@
 <html lang="de-CH">
 <head>
     <meta charset="UTF-8">
-    <title>MG Glishorn</title>
+    <title>Links | MG Glishorn</title>
     <link rel="icon" href="src/index_images/brand.jpeg" type="image/x-icon">
 
     <!-- For responsive objects -->
