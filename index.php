@@ -1,4 +1,4 @@
-<?php require 'templates.php' ?>
+<?php declare(strict_types=1); require 'templates.php' ?>
 <!DOCTYPE html>
 <html lang="de-CH">
 <head>
