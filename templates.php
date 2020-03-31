@@ -27,6 +27,46 @@
                         </li>';
         }
 
+        if ($current_page == 'about') {
+            $navbar .= '<li class="nav-item active">
+                            <a class="nav-link" href="#">Über uns</a>
+                        </li>';
+        } else {
+            $navbar .= '<li class="nav-item">
+                            <a class="nav-link" href="about.php">Über uns</a>
+                        </li>';
+        }
+
+        if ($current_page == 'members') {
+            $navbar .= '<li class="nav-item active">
+                            <a class="nav-link" href="#">Mitglieder</a>
+                        </li>';
+        } else {
+            $navbar .= '<li class="nav-item">
+                            <a class="nav-link" href="members.php">Mitglieder</a>
+                        </li>';
+        }
+
+        if ($current_page == 'photos') {
+            $navbar .= '<li class="nav-item active">
+                            <a class="nav-link" href="#">Fotos</a>
+                        </li>';
+        } else {
+            $navbar .= '<li class="nav-item">
+                            <a class="nav-link" href="photos.php">Fotos</a>
+                        </li>';
+        }
+
+        if ($current_page == 'links') {
+            $navbar .= '<li class="nav-item active">
+                            <a class="nav-link" href="#">Links</a>
+                        </li>';
+        } else {
+            $navbar .= '<li class="nav-item">
+                            <a class="nav-link" href="links.php">Links</a>
+                        </li>';
+        }
+
         $navbar .= '</ul>
                 </div>
             </nav>';
