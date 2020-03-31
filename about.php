@@ -18,7 +18,7 @@
 
 <body>
 <?php echo topImage() ?>
-<?php echo navbar('index') ?>
+<?php echo navbar('about') ?>
 <?php echo title('Musikgesellschaft &laquo;Glishorn&raquo; Glis') ?>
 <?php echo unofficial_alert() ?>
 

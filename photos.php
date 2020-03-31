@@ -18,8 +18,8 @@
 
 <body>
 <?php echo topImage() ?>
-<?php echo navbar('index') ?>
-<?php echo title('Musikgesellschaft &laquo;Glishorn&raquo; Glis') ?>
+<?php echo navbar('photos') ?>
+<?php echo title('Fotos') ?>
 <?php echo unofficial_alert() ?>
 
 <!-- Content goes here -->
