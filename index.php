@@ -32,7 +32,7 @@
             und interne Anlässe sind bis mindestens 19. April eingestellt.</p>
         <p>Das Lotto wird zu einem späteren Zeitpunkt durchgeführt, nach Möglichkeit
             in den Gliser Restaurants mit Beteiligung der Öffentlichkeit.</p>
-        <a href="#" class="btn btn-secondary">Mehr</a>
+        <a href="articles/corona.php" class="btn btn-secondary">Mehr</a>
     </div>
 </div>
 
