@@ -61,17 +61,17 @@
 
         <!-- Sections -->
         <div id="sectionTable" class="container tap-pane fade">
-            <?php include 'lists/sections.php';?>
+            <?php include 'lists/board.php';?>
         </div>
 
         <!-- Board -->
         <div id="boardTable" class="container tab-pane fade">
-            <?php include 'lists/active_members.php';?>
+            <?php include 'lists/board.php';?>
         </div>
 
         <!-- Conductors -->
         <div id="conductorTable" class="container tab-pane fade">
-            <?php include 'lists/sections.php';?>
+            <?php include 'lists/conductors.php';?>
         </div>
     </div>
 
