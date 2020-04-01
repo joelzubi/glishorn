@@ -26,7 +26,7 @@
 
 <!-- Active members -->
 <?php
-$servername = "localhost";
+$servername = "localhost:3306";
 $username = "viewer";
 $password = "viewer";
 
