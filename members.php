@@ -30,6 +30,9 @@
             <a class="nav-link active" data-toggle="pill" href="#activeTable">Aktivmitglieder</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#x">Test</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand</a>
         </li>
         <li class="nav-item">
@@ -54,6 +57,11 @@
         <!-- Active members -->
         <div id="activeTable" class="container tab-pane active">
             <?php include 'lists/active_members.php';?>
+        </div>
+
+        <!--Test-->
+        <div id="x" class="container tab-pane fade">
+            <?php include 'lists/sections.php';?>
         </div>
 
         <!-- Board -->
