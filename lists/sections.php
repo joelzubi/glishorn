@@ -45,7 +45,7 @@ if ($result->num_rows > 0) {
                             <h3>$section</h3>
                             <ul class='list-group list-group-flush'>";
     while ($row = $result->fetch_assoc()) {
-        echo "      <li class='list-group-item'>$section</li>";
+        echo "      <li class='list-group-item'>{$row["name"]}</li>";
     }
 
     echo '      </ul>
