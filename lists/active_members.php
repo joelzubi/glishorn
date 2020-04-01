@@ -17,7 +17,8 @@ SELECT
     pid
 FROM
     Conductor
-) THEN CASE WHEN Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male END ELSE ''
+) THEN CASE WHEN Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male
+END ELSE ''
 END AS function
 FROM
     (
@@ -48,8 +49,12 @@ LEFT JOIN(
     LEFT JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
     )
 ON
-    Person.pid = Conductor.pid";
+    Person.pid = Conductor.pid
+ORDER BY
+    Person.lastname, Person.firstname, function";
+
 $result = $conn->query($sql);
+
 if ($result->num_rows > 0) {
     echo '  <table class="table table-hover">
                 <thead>

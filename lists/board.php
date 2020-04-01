@@ -1,4 +1,15 @@
 <?php
+$titles = array(
+    'Präsident',
+    'Vize-Präsident',
+    'Jugendmusik-Präsident',
+    'Kassier',
+    'Aktuar',
+    'Materialverwalter',
+    'Uniformverwalter',
+    'Mister X'
+);
+
 $sql = "SELECT CASE WHEN
     Person.female = 1 THEN BoardPosition.title_female ELSE BoardPosition.title_male
 END AS function,
@@ -17,27 +28,42 @@ INNER JOIN(
     INNER JOIN BoardPosition ON BoardMember.bid = BoardPosition.bid
     )
 ON
-    Person.pid = BoardMember.pid";
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    echo '  <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Funktion</th>
-                        <th>Name</th>
-                    </tr>
-                </thead>
-                <tbody>';
+    Person.pid = BoardMember.pid
+WHERE
+    BoardPosition.title_male = ?";
 
-    while($row = $result->fetch_assoc()) {
-        echo "      <tr>
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $title);
+
+echo '  <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Funktion</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>';
+
+foreach ($titles as $title) {
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            echo "  <tr>
                         <td>{$row['function']}</td>
                         <td>{$row['name']}</td>
                     </tr>";
+        }
+    } else {
+        echo "  <tr>
+                    <td>$title</td>
+                    <td class='text-muted'>vakant</td>
+                </tr>";
     }
-
-    echo '     </tbody>
-            </table>';
-} else {
-    echo "Keine Resultate";
 }
+
+echo '      </tbody>
+        </table>';
+
+$stmt->close();

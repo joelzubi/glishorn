@@ -41,7 +41,9 @@ FROM
         Person.pid = Musician.pid
     )
 WHERE
-    Section.plural = ?";
+    Section.plural = ?
+ORDER BY
+    Person.lastname, Person.firstname";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
