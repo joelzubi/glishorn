@@ -48,7 +48,7 @@
 
         <!-- Sections -->
         <div id="sectionTable" class="container tap-pane fade">
-            <?php include 'lists/sections.php';?>
+            <?php include 'lists/active_members.php';?>
         </div>
 
         <!-- Board -->
