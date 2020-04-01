@@ -4,7 +4,8 @@ $sql = "SELECT
         Person.firstname,
         ' ',
         Person.lastname
-    ) AS name
+    ) AS name,
+    Section.singular AS singular
 FROM
     (
         Person
@@ -23,13 +24,6 @@ FROM
 WHERE
     Section.plural = ?";
 
-$singular_sql = "SELECT
-    singular
-FROM
-    Section
-WHERE
-    plural = ?";
-
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
 
@@ -38,14 +32,19 @@ $stmt->execute();
 $result = $stmt->get_result();
 
 if ($result->num_rows > 0) {
-    echo "  <div class='container'>
-                            <h3>$section</h3>
-                            <ul class='list-group list-group-flush'>";
-    while ($row = $result->fetch_assoc()) {
-        echo "      <li class='list-group-item'>{$row['name']}</li>";
+    $row = $result->fetch_assoc();
+    if ($result->num_rows == 1) {
+        $section = $row['singular'];
     }
+
+    echo "  <div class='container'>
+                <h3>$section</h3>
+                <ul class='list-group list-group-flush'>";
+    do {
+        echo "      <li class='list-group-item'>{$row['name']}</li>";
+    } while ($row = $result->fetch_assoc());
     echo '      </ul>
-                        </div>';
+            </div>';
 } else {
     echo "Keine Resultate";
 }
