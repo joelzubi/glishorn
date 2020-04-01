@@ -61,7 +61,7 @@
 
         <!-- Sections -->
         <div id="sectionTable" class="container tap-pane fade">
-            <?php include 'lists/sections.php';?>
+            <?php echo 'php';?>
         </div>
 
         <!-- Board -->
