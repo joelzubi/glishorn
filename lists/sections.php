@@ -41,7 +41,7 @@ FROM
         Person.pid = Musician.pid
     )
 WHERE
-    Section.plural = ?";
+    Section.plural = `?`";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
