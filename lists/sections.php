@@ -28,22 +28,24 @@ $sql = "SELECT
 FROM
     (
         Person
+    INNER JOIN Active ON Person.pid = Active.pid
+    )
+INNER JOIN(
+        Musician
     INNER JOIN(
-            Musician
-        INNER JOIN(
-                Instrument
-            INNER JOIN Section ON Instrument.sid = Section.sid
-            )
-        ON
-            Musician.iid = Instrument.iid
+            Instrument
+        INNER JOIN Section ON Instrument.sid = Section.sid
         )
     ON
-        Person.pid = Musician.pid
+        Musician.iid = Instrument.iid
     )
+ON
+    Person.pid = Musician.pid
 WHERE
-    Section.plural = ?
+    Section.plural = 'Klarinetten'
 ORDER BY
-    Person.lastname, Person.firstname";
+    Person.lastname,
+    Person.firstname";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
