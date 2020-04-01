@@ -24,7 +24,19 @@
 </div>
 <?php include 'templates/unofficial_alert.php'?>
 
-<!-- Content goes here -->
+<!-- Active members -->
+<?php
+$servername = "localhost";
+$username = "viewer";
+$password = "viewer";
+
+$conn = new mysqli($servername, $username, $password);
+
+if ($conn->connect_error) {
+    die("Verbindungsfehler");
+}
+echo "Connected successfully"
+?>
 
 <?php include 'templates/footer.php'?>
 
