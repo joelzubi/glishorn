@@ -66,12 +66,12 @@
 
         <!-- Board -->
         <div id="boardTable" class="container tab-pane fade">
-            <?php include 'lists/board.php';?>
+            <?php include 'lists/active_members.php';?>
         </div>
 
         <!-- Conductors -->
         <div id="conductorTable" class="container tab-pane fade">
-            <?php include 'lists/conductors.php';?>
+            <?php include 'lists/sections.php';?>
         </div>
     </div>
 
