@@ -30,7 +30,7 @@
             <a class="nav-link active" data-toggle="pill" href="#activeTable">Aktivmitglieder</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#sectionTable">Register</a>
+            <a class="nav-link" data-toggle="pill" href="#sectionTable">Nach Registern</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand</a>
