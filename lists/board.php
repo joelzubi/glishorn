@@ -6,7 +6,7 @@ $titles = array(
     'Kassier',
     'Aktuar',
     'Materialverwalter',
-    'Uniform-Verwalter'
+    'UniformVerwalter'
 );
 
 $sql = "SELECT CASE WHEN
@@ -55,9 +55,9 @@ foreach ($titles as $title) {
                     </tr>";
         }
     } else {
-        echo "  <tr>
+        echo "  <tr class='text-muted'>
                     <td>$title</td>
-                    <td class='text-muted'>vakant</td>
+                    <td>vakant</td>
                 </tr>";
     }
 }
