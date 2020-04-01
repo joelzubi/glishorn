@@ -43,217 +43,22 @@
     <div class="tab-content my-3">
         <!-- Active members -->
         <div id="activeTable" class="container tab-pane active">
-            <?php
-            $servername = "localhost:3306";
-            $username = "guest";
-            $password = "guest";
-            $dbname = "mgglishorn";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            if ($conn->connect_error) {
-                die("Verbindungsfehler");
-            }
-            $conn->set_charset("utf8");
-
-            $sql = "SELECT
-    CONCAT(firstname, ' ', lastname) AS name,
-    CASE WHEN Person.pid IN(
-SELECT
-    pid
-FROM
-    Musician
-) THEN Instrument.name WHEN Person.pid IN(
-SELECT
-    pid
-FROM
-    Honor
-) THEN CASE WHEN Person.female = 1 THEN HonorPosition.name_female ELSE HonorPosition.name_male
-END WHEN Person.pid IN(
-SELECT
-    pid
-FROM
-    Conductor
-) THEN CASE WHEN Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male END ELSE ''
-END AS function
-FROM
-    (
-        (
-            (
-                (
-                    Person
-                INNER JOIN Member ON Person.pid = Member.pid
-                )
-            INNER JOIN Active ON Person.pid = Active.pid
-            )
-        LEFT JOIN(
-                Musician
-            LEFT JOIN Instrument ON Musician.iid = Instrument.iid
-            )
-        ON
-            Person.pid = Musician.pid
-        )
-    LEFT JOIN(
-            Honor
-        LEFT JOIN HonorPosition ON Honor.hid = HonorPosition.hid
-        )
-    ON
-        Person.pid = Honor.pid
-    )
-LEFT JOIN(
-        Conductor
-    LEFT JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
-    )
-ON
-    Person.pid = Conductor.pid";
-            $result = $conn->query($sql);
-            if ($result->num_rows > 0) {
-                echo '  <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Funktion</th>
-                    </tr>
-                </thead>
-                <tbody>';
-
-                while($row = $result->fetch_assoc()) {
-                    echo "      <tr>
-                        <td>{$row['name']}</td>
-                        <td>{$row['function']}</td>
-                    </tr>";
-                }
-
-                echo '     </tbody>
-            </table>';
-            } else {
-                echo "Keine Resultate";
-            }
-
-            $conn->close();
-            ?>
+            <?php include 'lists/active_members.php';?>
         </div>
 
+        <!-- Sections -->
         <div id="sectionTable" class="container tap-pane fade">
-            sectionTable
+            <?php include 'lists/sections.php';?>
         </div>
 
         <!-- Board -->
         <div id="boardTable" class="container tab-pane fade">
-            <?php
-            $servername = "localhost:3306";
-            $username = "guest";
-            $password = "guest";
-            $dbname = "mgglishorn";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            if ($conn->connect_error) {
-                die("Verbindungsfehler");
-            }
-            $conn->set_charset("utf8");
-
-            $sql = "SELECT CASE WHEN
-    Person.female = 1 THEN BoardPosition.title_female ELSE BoardPosition.title_male
-END AS function,
-CONCAT(
-    Person.firstname,
-    ' ',
-    Person.lastname
-) AS name
-FROM
-    (
-        Person
-    INNER JOIN Member ON Person.pid = Member.pid
-    )
-INNER JOIN(
-        BoardMember
-    INNER JOIN BoardPosition ON BoardMember.bid = BoardPosition.bid
-    )
-ON
-    Person.pid = BoardMember.pid";
-            $result = $conn->query($sql);
-            if ($result->num_rows > 0) {
-                echo '  <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Funktion</th>
-                        <th>Name</th>
-                    </tr>
-                </thead>
-                <tbody>';
-
-                while($row = $result->fetch_assoc()) {
-                    echo "      <tr>
-                        <td>{$row['function']}</td>
-                        <td>{$row['name']}</td>
-                    </tr>";
-                }
-
-                echo '     </tbody>
-            </table>';
-            } else {
-                echo "Keine Resultate";
-            }
-
-            $conn->close();
-            ?>
+            <?php include 'lists/board.php';?>
         </div>
 
         <!-- Conductors -->
         <div id="conductorTable" class="container tab-pane fade">
-            <?php
-            $servername = "localhost:3306";
-            $username = "guest";
-            $password = "guest";
-            $dbname = "mgglishorn";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            if ($conn->connect_error) {
-                die("Verbindungsfehler");
-            }
-            $conn->set_charset("utf8");
-
-            $sql = "SELECT CASE WHEN
-    Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male
-END AS function,
-CONCAT(
-    Person.firstname,
-    ' ',
-    Person.lastname
-) AS name
-FROM
-    Person
-INNER JOIN(
-        Conductor
-    INNER JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
-    )
-ON
-    Person.pid = Conductor.pid;";
-            $result = $conn->query($sql);
-            if ($result->num_rows > 0) {
-                echo '  <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Funktion</th>
-                        <th>Name</th>
-                    </tr>
-                </thead>
-                <tbody>';
-
-                while($row = $result->fetch_assoc()) {
-                    echo "      <tr>
-                        <td>{$row['function']}</td>
-                        <td>{$row['name']}</td>
-                    </tr>";
-                }
-
-                echo '     </tbody>
-            </table>';
-            } else {
-                echo "Keine Resultate";
-            }
-
-            $conn->close();
-            ?>
+            <?php include 'lists/conductors.php';?>
         </div>
     </div>
 </div>
