@@ -11,7 +11,7 @@ $sections = array(
     'Euphonien',
     'Tuben',
     'Streichbässe',
-    'EBässe',
+    'E-Bässe',
     'Schlagzeug',
     'Klaviere',
     'Gitarren',
@@ -64,8 +64,6 @@ foreach ($sections as $section) {
         } while ($row = $result->fetch_assoc());
         echo '      </ul>
                 </div>';
-    } else {
-        echo "Keine Resultate";
     }
 }
 
