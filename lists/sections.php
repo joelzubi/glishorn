@@ -1,4 +1,23 @@
 <?php
+$sections = array(
+    'Flöten',
+    'Klarinetten',
+    'Oboen',
+    'Fagotte',
+    'Saxofone',
+    'Trompete',
+    'Hörner',
+    'Posaunen',
+    'Euphonien',
+    'Tuben',
+    'Streichbässe',
+    'E-Bässe',
+    'Schlagzeug',
+    'Klaviere',
+    'Gitarren',
+    'Streicher'
+);
+
 $sql = "SELECT
     CONCAT(
         Person.firstname,
@@ -27,26 +46,27 @@ WHERE
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
 
-$section = "Klarinetten";
-$stmt->execute();
-$result = $stmt->get_result();
+foreach ($sections as $section) {
+    $stmt->execute();
+    $result = $stmt->get_result();
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    if ($result->num_rows == 1) {
-        $section = $row['singular'];
-    }
+    if ($result->num_rows > 0) {
+        $row = $result->fetch_assoc();
+        if ($result->num_rows == 1) {
+            $section = $row['singular'];
+        }
 
-    echo "  <div class='container'>
-                <h3>$section</h3>
+        echo "  <div class='container'>
+                <h4>$section</h4>
                 <ul class='list-group list-group-flush'>";
-    do {
-        echo "      <li class='list-group-item'>{$row['name']}</li>";
-    } while ($row = $result->fetch_assoc());
-    echo '      </ul>
+        do {
+            echo "  <li class='list-group-item'>{$row['name']}</li>";
+        } while ($row = $result->fetch_assoc());
+        echo '  </ul>
             </div>';
-} else {
-    echo "Keine Resultate";
+    } else {
+        echo "Keine Resultate";
+    }
 }
 
 $stmt->close();
