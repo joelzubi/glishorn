@@ -1,15 +1,4 @@
 <?php
-$servername = "localhost:3306";
-$username = "guest";
-$password = "guest";
-$dbname = "mgglishorn";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Verbindungsfehler");
-}
-$conn->set_charset("utf8");
-
 $sql = "SELECT
     CONCAT(
         Person.firstname,
@@ -71,4 +60,3 @@ if ($result->num_rows > 0) {
 
 $stmt->close();
 $singular_stmt->close();
-$conn->close();

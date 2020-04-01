@@ -1,15 +1,4 @@
 <?php
-$servername = "localhost:3306";
-$username = "guest";
-$password = "guest";
-$dbname = "mgglishorn";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Verbindungsfehler");
-}
-$conn->set_charset("utf8");
-
 $sql = "SELECT
     CONCAT(firstname, ' ', lastname) AS name,
     CASE WHEN Person.pid IN(
@@ -83,5 +72,3 @@ if ($result->num_rows > 0) {
 } else {
     echo "Keine Resultate";
 }
-
-$conn->close();
