@@ -30,7 +30,7 @@
             <a class="nav-link active" data-toggle="pill" href="#activeTable">Aktivmitglieder</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#sT">Nach Registern</a>
+            <a class="nav-link" data-toggle="pill" href="#sectionTable">Nach Registern</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand</a>
@@ -60,7 +60,7 @@
         </div>
 
         <!-- Sections -->
-        <div id="sT" class="container tap-pane fade">
+        <div id="sectionTable" class="container tap-pane fade">
             <?php include 'lists/sections.php';?>
         </div>
 
