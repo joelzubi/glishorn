@@ -5,7 +5,7 @@ $sections = array(
     'Oboen',
     'Fagotte',
     'Saxofone',
-    'Trompete',
+    'Trompeten',
     'Hörner',
     'Posaunen',
     'Euphonien',
