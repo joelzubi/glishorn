@@ -6,8 +6,7 @@ $titles = array(
     'Kassier',
     'Aktuar',
     'Materialverwalter',
-    'Uniformverwalter',
-    'Mister X'
+    'Uniform-Verwalter'
 );
 
 $sql = "SELECT CASE WHEN
