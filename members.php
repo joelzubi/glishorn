@@ -29,9 +29,7 @@
         <li class="nav-item">
             <a class="nav-link active" data-toggle="pill" href="#activeTable">Aktivmitglieder</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#sectionTable">Nach Registern</a>
-        </li>
+
         <li class="nav-item">
             <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand</a>
         </li>
@@ -59,10 +57,7 @@
             <?php include 'lists/active_members.php';?>
         </div>
 
-        <!-- Sections -->
-        <div id="sectionTable" class="container tap-pane fade">
-            <?php include 'lists/board.php';?>
-        </div>
+
 
         <!-- Board -->
         <div id="boardTable" class="container tab-pane fade">
