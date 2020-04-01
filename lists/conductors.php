@@ -19,7 +19,9 @@ INNER JOIN(
     INNER JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
     )
 ON
-    Person.pid = Conductor.pid;";
+    Person.pid = Conductor.pid
+WHERE
+    ConductorTitle.title_male = ?";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $title);
