@@ -1,21 +1,21 @@
 <?php
 $sections = array(
-    'flöten',
-    'klarinetten',
-    'oboen',
-    'fagotte',
-    'saxofone',
-    'trompeten',
-    'hörner',
-    'posaunen',
-    'euphonien',
-    'tuben',
-    'streichbässe',
-    'e_bässe',
-    'schlagzeug',
-    'klaviere',
-    'gitarren',
-    'streicher'
+    'Flöten',
+    'Klarinetten',
+    'Oboen',
+    'Fagotte',
+    'Saxofone',
+    'Trompeten',
+    'Hörner',
+    'Posaunen',
+    'Euphonien',
+    'Tuben',
+    'Streichbässe',
+    'EBässe',
+    'Schlagzeug',
+    'Klaviere',
+    'Gitarren',
+    'Streicher'
 );
 
 $sql = "SELECT
@@ -41,7 +41,7 @@ FROM
         Person.pid = Musician.pid
     )
 WHERE
-    Section.plural LIKE ?";
+    Section.plural = ?";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);
