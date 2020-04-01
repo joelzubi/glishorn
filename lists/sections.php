@@ -56,14 +56,14 @@ foreach ($sections as $section) {
             $section = $row['singular'];
         }
 
-        echo "  <div class='container'>
-                <h4>$section</h4>
-                <ul class='list-group list-group-flush'>";
+        echo "  <div class='container my-3'>
+                    <h4>$section</h4>
+                    <ul class='list-group list-group-flush'>";
         do {
-            echo "  <li class='list-group-item'>{$row['name']}</li>";
+            echo "      <li class='list-group-item'>{$row['name']}</li>";
         } while ($row = $result->fetch_assoc());
-        echo '  </ul>
-            </div>';
+        echo '      </ul>
+                </div>';
     } else {
         echo "Keine Resultate";
     }
