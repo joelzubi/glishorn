@@ -38,6 +38,10 @@
         etwas zu unterstützen. Die gekauften Lottokarten bleiben auf jeden Fall
         gültig.
     </p>
+    <a href="https://www.windband.ch/media/471991/pdf-fu-r-corona-news_deutsch_001.pdf"
+       target="_blank" class="btn btn-primary btn-block">
+        Informationen des SBV
+    </a>
 </div>
 
 <?php include '../templates/footer.php'?>

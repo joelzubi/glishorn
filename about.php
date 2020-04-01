@@ -31,13 +31,13 @@
     </p>
     <p>
         Wir sind Mitglied des
-        <a href="https://www.kmvw.ch/de/mitglieder/verbaende">Bezirksmusikverbands Brig</a>,
-        des <a href="https://www.omv-vs.ch/">Oberwalliser Musikverbands</a> und des
-        <a href="https://www.windband.ch/de/home/">Schweizerischen Blasmusikverbands</a>.
+        <a href="https://www.kmvw.ch/de/mitglieder/verbaende" target="_blank">Bezirksmusikverbands Brig</a>,
+        des <a href="https://www.omv-vs.ch/" target="_blank">Oberwalliser Musikverbands</a> und des
+        <a href="https://www.windband.ch/de/home/" target="_blank">Schweizerischen Blasmusikverbands</a>.
     </p>
     <p>
         Unser Nachwuchs-Verein ist die
-        <a href="http://www.jugendmusik-glis.ch/">Jugendmusik Glis</a>, derzeit
+        <a href="http://www.jugendmusik-glis.ch/" target="_blank">Jugendmusik Glis</a>, derzeit
         amtierende Schweizermeisterin in der Konzert- und Parademusik.
     </p>
 </div>
