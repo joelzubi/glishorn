@@ -42,7 +42,7 @@ INNER JOIN(
 ON
     Person.pid = Musician.pid
 WHERE
-    Section.plural = 'Klarinetten'
+    Section.plural = ?
 ORDER BY
     Person.lastname,
     Person.firstname";
