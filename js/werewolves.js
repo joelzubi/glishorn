@@ -32,11 +32,13 @@ $(document).ready(() => {
 
         choose: (activeOptions, inactiveOptions, number, func, text) => {
             CHOICE.items = [];
-            CHOICE.numberWanted = number;
+            CHOICE.numberWanted = Math.min(number, activeOptions.length);
             CHOICE.func = func;
-            if (number <= 0) {
+            if (CHOICE.numberWanted <= 0) {
                 inactiveOptions.push(activeOptions);
                 activeOptions = [];
+                if (inactiveOptions.length === 0)
+                    inactiveOptions.push("keine Wahlmöglichkeit");
             }
 
             let result = "<p>" + text + "</p>" + "<div class='list-group'>";
@@ -57,7 +59,7 @@ $(document).ready(() => {
             activeOptions.forEach(text => {
                 $("#" + text).click(() => toggle(text));
             });
-            if (number <= 0)
+            if (CHOICE.numberWanted <= 0)
                 buttonElement.html("Weiter");
             else {
                 buttonElement.addClass("disabled");
@@ -82,10 +84,10 @@ $(document).ready(() => {
         else buttonElement.addClass("disabled");
     };
 
-    const livingPlayers = () => allPlayers.filter(player => player.alive);
+    const livingPlayers = () => PLAYERS.allPlayers.filter(player => player.alive);
     const livingPlayerNames = () => livingPlayers().map(player => player.name);
     const findPlayer = name => {
-        allPlayers.forEach(player => {
+        PLAYERS.allPlayers.forEach(player => {
             if (player.name === name) {
                 selectedPlayer = player;
             }
@@ -200,7 +202,20 @@ $(document).ready(() => {
         findPlayer(people[0]);
 
         selectedPlayer.alive = false;
-        write(selectedPlayer.name + " stirbt.");
+        if (selectedPlayer.role !== null) {
+            write(selectedPlayer.name + " stirbt. Er/Sie war " + selectedPlayer.role + ".");
+            nextActor();
+        } else {
+            let possibleRoles = PLAYERS.rolesWithUnknownPlayers
+                .map(role => role.name);
+            CHOICE.choose(possibleRoles, [], 1, ACTORS.VILLAGERS.findRole,
+                selectedPlayer.name + " stirbt. Was war seine/ihre Rolle?");
+        }
+    }
+
+    ACTORS.VILLAGERS.findRole = () => {
+        PLAYERS.setRole(selectedPlayer, CHOICE.items[0]);
+        write(selectedPlayer.name + " war " + CHOICE.items[0] + ".");
         nextActor();
     }
 
@@ -310,18 +325,37 @@ $(document).ready(() => {
         }
     };
 
-    let allPlayers = [];
-    let rolesWithUnknownPlayers = [];
+    const PLAYERS = {
+        allPlayers: [],
+        rolesWithUnknownPlayers: [],
+
+        setRole: (player, roleName) => {
+            player.role = roleName;
+            PLAYERS.rolesWithUnknownPlayers.forEach(role => {
+                if (role.name === roleName)
+                    role.number -= 1;
+            });
+            PLAYERS.rolesWithUnknownPlayers = PLAYERS.rolesWithUnknownPlayers
+                .filter(role => role.number > 0);
+            if (PLAYERS.rolesWithUnknownPlayers.length === 1) {
+                PLAYERS.allPlayers.forEach(player => {
+                    if (player.role === null)
+                        player.role = PLAYERS.rolesWithUnknownPlayers[0].name;
+                });
+                PLAYERS.rolesWithUnknownPlayers = [];
+            }
+        }
+    }
 
     let daysPassed = 0;
     let currentActor = ACTORS.SLEEP_STARTER;
     let selectedPlayer = null;
 
     nextMove("Start", () => {
-        allPlayers = ["Anna", "Bertha", "Cäsar", "Daniel", "Emma"].map(
-            (name) => new Player(name)
+        PLAYERS.allPlayers = ["Anna", "Bertha", "Cäsar", "Daniel", "Emma"].map(
+            name => new Player(name)
         );
-        rolesWithUnknownPlayers = [
+        PLAYERS.rolesWithUnknownPlayers = [
             { name: "Werwolf", number: 1 },
             { name: "Dorfbewohner", number: 4 }
         ];
