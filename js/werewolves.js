@@ -12,6 +12,21 @@ $(document).ready(() => {
         nextAction();
     });
 
+    // Call this function before every action.
+    const refreshPlayerList = () => {
+        if (PLAYERS.livingPlayerNames().length === 0) {
+            overviewElement.html("x");
+            overviewElement.html("<li class='list-group-item disabled'>keine lebenden Spieler</li>");
+            return;
+        }
+
+        let result = "";
+        PLAYERS.livingPlayerNames().forEach(player => {
+            result += "<li class='list-group-item'>" + player + "</li>";
+        });
+        overviewElement.html(result);
+    };
+
     // Any person in the game.
     class Player
     {
@@ -349,20 +364,6 @@ $(document).ready(() => {
             else
                 buttonElement.addClass("disabled");
         }
-    };
-
-    const refreshPlayerList = () => {
-        if (PLAYERS.livingPlayerNames().length === 0) {
-            overviewElement.html("x");
-            overviewElement.html("<li class='list-group-item disabled'>keine lebenden Spieler</li>");
-            return;
-        }
-
-        let result = "";
-        PLAYERS.livingPlayerNames().forEach(player => {
-            result += "<li class='list-group-item'>" + player + "</li>";
-        });
-        overviewElement.html(result);
     };
 
     ACTORS.SLEEP_STARTER.begin = () => {
