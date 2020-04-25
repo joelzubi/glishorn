@@ -311,10 +311,10 @@ $(document).ready(() => {
             CHOICE.func = func; // Answer array will be sent to this function.
             if (CHOICE.numberWanted <= 0)
             {
-                inactiveOptions.push(activeOptions);
+                activeOptions.forEach(option => inactiveOptions.push(option));
                 activeOptions = [];
                 if (inactiveOptions.length === 0)
-                    inactiveOptions.push("keine Wahlmöglichkeit");
+                    inactiveOptions = ["keine Wahlmöglichkeit"];
             }
 
             let result = "<p>" + text + "</p>" + "<div class='list-group'>";
