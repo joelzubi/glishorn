@@ -36,7 +36,7 @@
         <p>Aufgrund der aktuellen Lage wurden die Konzerte der
             <abbr title="Musikgesellschaft">MG</abbr> Glishorn und
             <abbr title="Jugendmusik">JM</abbr> Glis  abgesagt. Auch der Probebetrieb
-            und interne Anlässe sind bis mindestens 19. April eingestellt.</p>
+            und interne Anlässe sind bis mindestens 30. November eingestellt.</p>
         <p>Das Lotto wird zu einem späteren Zeitpunkt durchgeführt, nach Möglichkeit
             in den Gliser Restaurants mit Beteiligung der Öffentlichkeit.</p>
         <a href="articles/corona.php" class="btn btn-secondary">Mehr</a>
