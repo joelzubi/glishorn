@@ -14,6 +14,7 @@
 
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/parallax.css">
 
     <!-- jQuery, Popper JS and Bootstrap Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -23,14 +24,14 @@
 
 <body>
 <?php include '../templates/header.php'?>
-<?php include '../templates/navbar_other.php' ?>
+<?php include '../templates/navbar_article.php' ?>
 <?php include '../templates/unofficial_alert.php'?>
 
 <!-- Article -->
 <div class="container">
     <h1>Die Jugendmusik Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h1>
 
-    <!-- title picture -->
+    <img src="../src/burgdorf/group.jpg" class="w-75 mx-auto d-block" alt="Gruppenfoto Jugendmusik Glis">
 
     <p>Kurz nach sechs Uhr morgens treffen die Jugendmusikanten im Musiklokal ein. Die meisten noch sehr
         verschlafen, andere bereits bestens gelaunt. Materialcheck, haben alle alles dabei?
@@ -43,9 +44,11 @@
     <p>Die 3-stündige Busfahrt über Vevey nach Burgdorf erlebt jeder etwas anders.
         Einige schlafen, andere hören Musik, wieder andere schauen einen Film und ein paar sehr Interessierte
         lesen die "FÄSCHTZITTIG".</p>
+</div>
 
-    <!-- bus picture -->
+<div class="burgdorf-bus parallax"></div>
 
+<div class="container">
     <p>So pünktlich wie wir abgefahren sind, so pünktlich kommen wir auch endlich in Burgdorf an.
         Zunächst heisst es, alles aus dem Bus ausladen und zum Instrumentendepot bringen.
         Bis hierhin ist ja mal alles bestens verlaufen.
@@ -79,9 +82,11 @@
         "Rikudim" wohl noch nie so gut gespielt haben.
         Aber die Konkurrenz schläft nicht.
         Was unser Vortrag wirklich wert ist, erfahren wir erst am Sonntag.</p>
+</div>
 
-    <!-- concert picture -->
+<div class="burgdorf-concert parallax"></div>
 
+<div class="container">
     <p>Nun geht's wieder zurück ins Instrumentendepot. Es heisst Umziehen, Abendessen und Unterkunft beziehen.
         Die etwa zehnminütige Fahrt wird mit Walliser und Bündner Liedern überbrückt und die Chauffeuse lässt
         sich sogar auf #driimalumechreisel ein.
@@ -156,9 +161,11 @@
         und sie sind am Schweizer Jugendmusikfest mit denselben Stücken angetreten.
         Schweizermeister der Kategorie Harmonie Oberstufe mit 94.00 Punkten ist... 3 Sekunden absolute Stille...
         Jugendmusik Glis!</p>
+</div>
 
-    <!-- group picture party -->
+<div class="burgdorf-party parallax"></div>
 
+<div class="container">
     <p>Die Jugendmusik liegt sich in den Armen und ich darf den Pokal für den Kategoriensieg auf der Bühne
         entgegennehmen.
         Ich bin richtig stolz auf unsere Jugend!
@@ -200,7 +207,14 @@
     <p>Es lebe die Jugendmusik Glis!</p>
     <p>Präsident, Dominic Wenger</p>
 
-    <!-- presitent's photos -->
+    <div class="row">
+        <div class="col">
+            <img src="../src/burgdorf/praesident_1.jpg" class="img-fluid" alt="Stolzer Präsident">
+        </div>
+        <div class="col">
+            <img src="../src/burgdorf/praesident_2.jpg" class="img-fluid" alt="Ehemalige Präsidenten der MG Glishorn">
+        </div>
+    </div>
 </div>
 
 <?php include '../templates/footer.php'?>
