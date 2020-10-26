@@ -11,7 +11,7 @@ SELECT
     pid
 FROM
     MitgliedDerEhrengarde
-) THEN CASE WHEN Person.weiblich = 1 THEN PositionInEhrengarde.weiblicher_titel ELSE HonorPosition.maennlicher_titel
+) THEN CASE WHEN Person.weiblich = 1 THEN PositionInEhrengarde.weiblicher_titel ELSE PositionInEhrengarde.maennlicher_titel
 END WHEN Person.pid IN(
 SELECT
     pid
