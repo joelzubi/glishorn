@@ -30,16 +30,33 @@
 <?php include 'templates/unofficial_alert.php'?>
 
 <!-- Corona alert -->
-<div id="coronaAlert" class="jumbotron-fluid p-3 my-3 bg-danger text-white">
+<div id="coronaAlert" class="jumbotron-fluid py-4 mb-3 bg-danger text-white">
     <div class="container">
         <h4>Coronavirus</h4>
-        <p>Aufgrund der aktuellen Lage wurden die Konzerte der
+        <p>Aufgrund der aktuellen Lage wurden sämtliche Auftritte der
             <abbr title="Musikgesellschaft">MG</abbr> Glishorn und
-            <abbr title="Jugendmusik">JM</abbr> Glis  abgesagt. Auch der Probebetrieb
-            und interne Anlässe sind bis mindestens 30. November eingestellt.</p>
-        <p>Das Lotto wird zu einem späteren Zeitpunkt durchgeführt, nach Möglichkeit
-            in den Gliser Restaurants mit Beteiligung der Öffentlichkeit.</p>
-        <a href="articles/corona.php" class="btn btn-secondary">Mehr</a>
+            <abbr title="Jugendmusik">JM</abbr> Glis  abgesagt. Dazu gehören kirchliche
+            Auftritte wie Firmung und Allerheiligen sowie unser Winterkonzert in der
+            Wallfahrtskirche, das für den 29. November geplant war.</p>
+        <p>Auch der Probebetrieb ist eingeschränkt. Geprobt wird nur sitzend, in kleinen
+            Gruppen und unter Einhaltung der nötigen Massnahmen wie Abstandhalten.</p>
+    </div>
+</div>
+
+<!-- News box -->
+<div id="news" class="container">
+    <div id="burgdorfLink" class="card w-50">
+        <img class="card-img-top" src="src/burgdorf/group.jpg" alt="Gruppenfoto Jugendmusik Glis">
+        <div class="card-body">
+            <h4 class="card-title">Die JM Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h4>
+            <p class="card-text">
+                Am Schweizer Jugendmusikfest in Burgdorf 2019 konnte die Jugendmusik Glis so richtig abräumen.
+                Sie erreichte den 1. Platz in der Kategorie Konzert Harmonie Oberstufe mit 94 Punkten sowie den
+                1. Platz in der Kategorie Parademusik M mit 93 Punkten. Hier der Bericht des Präsidenten über das
+                "historische" Wochenende vom 21./22. September.
+            </p>
+            <a href="#" class="card-link stretched-link">Zum Bericht</a>
+        </div>
     </div>
 </div>
 
