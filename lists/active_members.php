@@ -1,23 +1,23 @@
 <?php
 $sql = "SELECT
-    CONCAT(firstname, ' ', lastname) AS name,
+    CONCAT(vorname, ' ', nachname) AS name,
     CASE WHEN Person.pid IN(
 SELECT
     pid
 FROM
-    Musician
+    Musikant
 ) THEN Instrument.name WHEN Person.pid IN(
 SELECT
     pid
 FROM
-    Honor
-) THEN CASE WHEN Person.female = 1 THEN HonorPosition.name_female ELSE HonorPosition.name_male
+    MitgliedDerEhrengarde
+) THEN CASE WHEN Person.weiblich = 1 THEN PositionInEhrengarde.weiblicher_titel ELSE HonorPosition.maennlicher_titel
 END WHEN Person.pid IN(
 SELECT
     pid
 FROM
-    Conductor
-) THEN CASE WHEN Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male
+    Dirigent
+) THEN CASE WHEN Person.weiblich = 1 THEN TitelInDirektion.weiblicher_titel ELSE TitelInDirektion.maennlicher_titel
 END ELSE ''
 END AS function
 FROM
@@ -26,30 +26,30 @@ FROM
             (
                 (
                     Person
-                INNER JOIN Member ON Person.pid = Member.pid
+                INNER JOIN Mitglied ON Person.pid = Mitglied.pid
                 )
-            INNER JOIN Active ON Person.pid = Active.pid
+            INNER JOIN Aktive ON Person.pid = Aktive.pid
             )
         LEFT JOIN(
-                Musician
-            LEFT JOIN Instrument ON Musician.iid = Instrument.iid
+                Musikant
+            LEFT JOIN Instrument ON Musikant.iid = Instrument.iid
             )
         ON
-            Person.pid = Musician.pid
+            Person.pid = Musikant.pid
         )
     LEFT JOIN(
-            Honor
-        LEFT JOIN HonorPosition ON Honor.hid = HonorPosition.hid
+            MitgliedDerEhrengarde
+        LEFT JOIN PositionInEhrengarde ON MitgliedDerEhrengarde.hid = PositionInEhrengarde.hid
         )
     ON
-        Person.pid = Honor.pid
+        Person.pid = MitgliedDerEhrengarde.pid
     )
 LEFT JOIN(
-        Conductor
-    LEFT JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
+        Dirigent
+    LEFT JOIN TitelInDirektion ON Dirigent.cid = TitelInDirektion.cid
     )
 ON
-    Person.pid = Conductor.pid
+    Person.pid = Dirigent.pid
 ORDER BY
     Person.lastname,
     Person.firstname,

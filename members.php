@@ -64,7 +64,7 @@
             <?php include 'lists/active_members.php';?>
         </div>
 
-        <!--Test-->
+        <!--Sections-->
         <div id="sectionTable" class="container tab-pane fade">
             <?php include 'lists/sections.php';?>
         </div>

@@ -10,26 +10,26 @@ $titles = array(
 );
 
 $sql = "SELECT CASE WHEN
-    Person.female = 1 THEN BoardPosition.title_female ELSE BoardPosition.title_male
+    Person.weiblich = 1 THEN Vorstandsamt.weiblicher_titel ELSE Vorstandsamt.maennlicher_titel
 END AS function,
 CONCAT(
-    Person.firstname,
+    Person.vorname,
     ' ',
-    Person.lastname
+    Person.nachname
 ) AS name
 FROM
     (
         Person
-    INNER JOIN Member ON Person.pid = Member.pid
+    INNER JOIN Mitglied ON Person.pid = Mitglied.pid
     )
 INNER JOIN(
-        BoardMember
-    INNER JOIN BoardPosition ON BoardMember.bid = BoardPosition.bid
+        Vorstandsmitglied
+    INNER JOIN Vorstandsamt ON Vorstandsmitglied.bid = Vorstandsamt.bid
     )
 ON
-    Person.pid = BoardMember.pid
+    Person.pid = Vorstandsmitglied.pid
 WHERE
-    BoardPosition.title_male = ?";
+    Vorstandsamt.maennlicher_titel = ?";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $title);

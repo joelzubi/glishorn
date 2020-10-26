@@ -20,32 +20,32 @@ $sections = array(
 
 $sql = "SELECT
     CONCAT(
-        Person.firstname,
+        Person.vorname,
         ' ',
-        Person.lastname
+        Person.nachname
     ) AS name,
-    Section.singular AS singular
+    Register.singular AS singular
 FROM
     (
         Person
-    INNER JOIN Active ON Person.pid = Active.pid
+    INNER JOIN Aktive ON Person.pid = Aktive.pid
     )
 INNER JOIN(
-        Musician
+        Musikant
     INNER JOIN(
             Instrument
-        INNER JOIN Section ON Instrument.sid = Section.sid
+        INNER JOIN Register ON Instrument.sid = Register.sid
         )
     ON
-        Musician.iid = Instrument.iid
+        Musikant.iid = Instrument.iid
     )
 ON
-    Person.pid = Musician.pid
+    Person.pid = Musikant.pid
 WHERE
-    Section.plural = ?
+    Register.plural = ?
 ORDER BY
-    Person.lastname,
-    Person.firstname";
+    Person.nachname,
+    Person.vorname";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $section);

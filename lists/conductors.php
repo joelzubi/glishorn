@@ -5,23 +5,23 @@ $titles = array(
 );
 
 $sql = "SELECT CASE WHEN
-    Person.female = 1 THEN ConductorTitle.title_female ELSE ConductorTitle.title_male
+    Person.female = 1 THEN TitelInDirektion.weiblicher_titel ELSE TitelInDirektion.maennlicher_titel
 END AS function,
 CONCAT(
-    Person.firstname,
+    Person.vorname,
     ' ',
-    Person.lastname
+    Person.nachname
 ) AS name
 FROM
     Person
 INNER JOIN(
-        Conductor
-    INNER JOIN ConductorTitle ON Conductor.cid = ConductorTitle.cid
+        Dirigent
+    INNER JOIN TitelInDirektion ON Dirigent.cid = TitelInDirektion.cid
     )
 ON
-    Person.pid = Conductor.pid
+    Person.pid = Dirigent.pid
 WHERE
-    ConductorTitle.title_male = ?";
+    TitelInDirektion.maennlicher_titel = ?";
 
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("s", $title);
