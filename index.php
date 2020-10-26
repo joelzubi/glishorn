@@ -55,7 +55,7 @@
                 1. Platz in der Kategorie Parademusik M mit 93 Punkten. Hier der Bericht des Präsidenten über das
                 "historische" Wochenende vom 21./22. September.
             </p>
-            <a href="#" class="card-link stretched-link">Zum Bericht</a>
+            <a href="articles/burgdorf.php" class="card-link stretched-link">Zum Bericht</a>
         </div>
     </div>
 </div>
