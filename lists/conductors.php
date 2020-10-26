@@ -5,7 +5,7 @@ $titles = array(
 );
 
 $sql = "SELECT CASE WHEN
-    Person.female = 1 THEN TitelInDirektion.weiblicher_titel ELSE TitelInDirektion.maennlicher_titel
+    Person.weiblich = 1 THEN TitelInDirektion.weiblicher_titel ELSE TitelInDirektion.maennlicher_titel
 END AS function,
 CONCAT(
     Person.vorname,
