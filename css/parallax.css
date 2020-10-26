@@ -2,6 +2,12 @@ body, html {
     height: 100%;
 }
 
+.title-picture {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
 .burgdorf-bus {
     background-image: url("../src/burgdorf/zerzuben.jpg");
 }
@@ -17,7 +23,10 @@ body, html {
 .parallax {
     height: 100%;
 
-    /* Create the parallax scrolling effect */
+    /* Hide on small screens */
+    display: none;
+
+    /* Parallax on large screens */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +34,16 @@ body, html {
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (min-device-width: 1366px) {
+    .title-picture {
+        max-width: 75%;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
     .parallax {
-        background-attachment: scroll;
+        display: block;
     }
 }

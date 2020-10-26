@@ -31,7 +31,7 @@
 <div class="container">
     <h1>Die Jugendmusik Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h1>
 
-    <img src="../src/burgdorf/group.jpg" class="w-75 mx-auto d-block" alt="Gruppenfoto Jugendmusik Glis">
+    <img src="../src/burgdorf/group.jpg" class="title-picture" alt="Gruppenfoto Jugendmusik Glis">
 
     <p>Kurz nach sechs Uhr morgens treffen die Jugendmusikanten im Musiklokal ein. Die meisten noch sehr
         verschlafen, andere bereits bestens gelaunt. Materialcheck, haben alle alles dabei?
@@ -46,6 +46,9 @@
         lesen die "FÄSCHTZITTIG".</p>
 </div>
 
+<div class="container">
+    <img src="../src/burgdorf/zerzuben.jpg" class="img-fluid mobile-img" alt="Zerzuben Car">
+</div>
 <div class="burgdorf-bus parallax"></div>
 
 <div class="container">
@@ -84,6 +87,9 @@
         Was unser Vortrag wirklich wert ist, erfahren wir erst am Sonntag.</p>
 </div>
 
+<div class="container">
+    <img src="../src/burgdorf/konzert.jpg" class="img-fluid mobile-img" alt="Konzertvortrag der Jugendmusik Glis">
+</div>
 <div class="burgdorf-concert parallax"></div>
 
 <div class="container">
@@ -163,6 +169,9 @@
         Jugendmusik Glis!</p>
 </div>
 
+<div class="container">
+    <img src="../src/burgdorf/group_party.jpg" class="img-fluid mobile-img" alt="Jugendmusik Glis am Jubeln im Festzelt">
+</div>
 <div class="burgdorf-party parallax"></div>
 
 <div class="container">
