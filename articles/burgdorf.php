@@ -31,7 +31,7 @@
 <div class="container">
     <h1>Die Jugendmusik Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h1>
 
-    <img src="../src/burgdorf/group.jpg" class="title-picture" alt="Gruppenfoto Jugendmusik Glis">
+    <img src="../src/burgdorf/group.jpg" class="title-picture img-thumbnail" alt="Gruppenfoto Jugendmusik Glis">
 
     <p>Kurz nach sechs Uhr morgens treffen die Jugendmusikanten im Musiklokal ein. Die meisten noch sehr
         verschlafen, andere bereits bestens gelaunt. Materialcheck, haben alle alles dabei?
