@@ -51,8 +51,8 @@ LEFT JOIN(
 ON
     Person.pid = Dirigent.pid
 ORDER BY
-    Person.lastname,
-    Person.firstname,
+    Person.nachname,
+    Person.vorname,
     function";
 
 $result = $conn->query($sql);
