@@ -216,7 +216,7 @@
     <p>Es lebe die Jugendmusik Glis!</p>
     <p>Präsident, Dominic Wenger</p>
 
-    <div class="row">
+    <div class="row h-25">
         <div class="col-4">
             <img src="../src/burgdorf/praesident_1.jpg" class="img-fluid h-100" style="object-fit: cover;" alt="Stolzer Präsident">
         </div>
