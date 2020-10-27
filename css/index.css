@@ -1,0 +1,9 @@
+#news > div.row > div > div.card {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#news > div.row > div > div.card:hover {
+    opacity: 0.7;
+}

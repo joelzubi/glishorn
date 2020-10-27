@@ -50,7 +50,7 @@
 
         <!-- JM Glis in Burgdorf -->
         <div class="col-lg-6">
-            <div id="burgdorfLink" class="card">
+            <div class="card">
                 <img class="card-img-top" src="src/burgdorf/group.jpg" alt="Gruppenfoto Jugendmusik Glis">
                 <div class="card-body">
                     <h4 class="card-title">Die JM Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h4>
