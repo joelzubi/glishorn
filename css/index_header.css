@@ -1,0 +1,20 @@
+#topImage {
+    height: 150px;
+    background-image: url("../src/index_images/glishorn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 992px) {
+    #topImage {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #topImage {
+        background-image: url("../src/index_images/glishorn_lg.jpg");
+        height: 300px;
+    }
+}
