@@ -2,10 +2,10 @@
     <div class="d-flex justify-content-between">
         <div class="container">
             <a href="https://www.facebook.com/MG-Glishorn-592842090747486" target="_blank"
-               class="d-inline fab fa-facebook px-3 text-center text-decoration-none"
+               class="d-inline fab fa-facebook p-2 text-center text-decoration-none"
                style="font-size: 30px; width: 50px; color: darkgrey"></a>
             <a href="mailto:info@glishorn.ch" target="_blank"
-               class="d-inline fas fa-envelope px-3 text-center text-decoration-none"
+               class="d-inline fas fa-envelope p-2 text-center text-decoration-none"
                style="font-size: 30px; width: 50px; color: darkgrey"></a>
         </div>
         <div class="container">
