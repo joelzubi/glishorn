@@ -36,7 +36,7 @@
     <p>In Zeiten von Corona ist auch in der Blasmusik Kreativität gefragt.
     Verschiedene Projekte ermöglichten gemeinsames Musizieren und sogar Konzerte im virtuellen Raum.</p>
 
-    <h3>The Mighty Horns</h3>
+    <h3 class="mt-5">The Mighty Horns</h3>
     <p>Fast ein Dutzend Bläser, eine Gitarre, ein Keyboard und ein Schlagzeug.
         Im Internet war ihre Pop-, Funk- und Rock-Musik sogar während des Lockdowns zu hören.</p>
     <p>Die Oberwalliser Cover-Brass &laquo;The Mighty Horns&raquo;
@@ -46,7 +46,7 @@
                 width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
     </div>
 
-    <h3>Spirit Symphonic Band</h3>
+    <h3 class="mt-5">Spirit Symphonic Band</h3>
     <p>Auch die Studentenmusik des Kollegiums Spiritus Sanctus Brig musste ihr Jahreskonzert 2019 absagen.</p>
     <p>Unter der Leitung ihres Dirigenten David Lochmatter präsentierte die &laquo;Spirit Symphonic Band&raquo;
         stattdessen den Marsch &laquo;Rhonetal&raquo; von verschiedenen Standorten im Oberwallis:</p>
