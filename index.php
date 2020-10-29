@@ -51,6 +51,23 @@
 <div id="news" class="container">
     <div class="row">
 
+        <!-- Quarantine music -->
+        <div class="col-lg-6">
+            <div class="card">
+                <img class="card-img-top" src="src/quarantine/tromboline.png" alt="Gruppenfoto Jugendmusik Glis">
+                <div class="card-body">
+                    <h4 class="card-title">Musik trotz Corona</h4>
+                    <p class="card-text">
+                        Während einer Pandemie zu musizieren erfordert Kreativität.
+                        Daran fehlt es in der Oberwalliser Musikszene aber nicht.
+                        Verschiedene Formationen bereichern das Leben der Menschen, auch wenn Proben und
+                        Konzerte nicht stattfinden können.
+                    </p>
+                    <a href="articles/quarantine.php" class="card-link stretched-link">Videos</a>
+                </div>
+            </div>
+        </div>
+
         <!-- JM Glis in Burgdorf -->
         <div class="col-lg-6">
             <div class="card">
