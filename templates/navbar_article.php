@@ -15,7 +15,7 @@ $pages = array(
     array('index.php', 'Startseite'),
     array('about.php', 'Über uns'),
     array('members.php', 'Mitglieder'),
-    array('photos.php', 'Fotos'),
+    array('calendar.php', 'Fotos'),
     array('links.php', 'Links')
 );
 
