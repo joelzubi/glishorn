@@ -14,6 +14,7 @@
 
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/parallax.css">
     <link rel="stylesheet" href="../css/footer.css">
 
     <!-- jQuery, Popper JS and Bootstrap Scripts -->
