@@ -53,8 +53,9 @@
 
         <!-- Quarantine music -->
         <div class="col-lg-6">
-            <div class="card">
-                <img class="card-img-top" src="src/quarantine/tromboline.png" alt="Gruppenfoto Jugendmusik Glis">
+            <div class="card my-2">
+                <img class="card-img-top" src="src/quarantine/tromboline.png" alt="Gruppenfoto Jugendmusik Glis"
+                     style="height: 300px;">
                 <div class="card-body">
                     <h4 class="card-title">Musik trotz Corona</h4>
                     <p class="card-text">
@@ -68,10 +69,31 @@
             </div>
         </div>
 
+        <!-- Decibel experiment -->
+        <div class="col-lg-6">
+            <div class="card my-2">
+                <img class="card-image-top" src="src/decibel_test/title_picture.jpg" alt="Lärmbelastung"
+                    style="max-height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-title">Wie laut ist eigentlich Musik?</h4>
+                    <p class="card-text">
+                        Zu viel Lärmbelastung kann das Gehör schädigen.
+                        Aber wie laut ist ein Musikinstrument oder gar ein ganzes Blasorchester?
+                        Wir haben den Selbsttest gemacht und Erstaunliches festgestellt.
+                    </p>
+                    <a href="articles/decibel_test.php" class="card-link stretched-link">Zum Experiment</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
         <!-- JM Glis in Burgdorf -->
         <div class="col-lg-6">
-            <div class="card">
-                <img class="card-img-top" src="src/burgdorf/group.jpg" alt="Gruppenfoto Jugendmusik Glis">
+            <div class="card my-2">
+                <img class="card-img-top" src="src/burgdorf/group.jpg" alt="Gruppenfoto Jugendmusik Glis"
+                     style="max-height: 300px;">
                 <div class="card-body">
                     <h4 class="card-title">Die JM Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h4>
                     <p class="card-text">
