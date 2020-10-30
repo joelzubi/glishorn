@@ -55,10 +55,11 @@
     $password = "guest";
     $dbname = "mgglishorn";
 
+    error_reporting(0);
     $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
-        die("Verbindungsfehler");
-    }
+        echo '<div class="alert alert-danger my-5 text-center">Datenbank nicht erreichbar</div>';
+    } else {
     $conn->set_charset("utf8");
     ?>
 
@@ -84,7 +85,11 @@
         </div>
     </div>
 
-    <?php $conn->close();?>
+    <?php
+    }
+
+    $conn->close()
+    ;?>
 </div>
 
 <?php include 'templates/footer.php'?>
