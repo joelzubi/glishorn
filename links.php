@@ -39,10 +39,11 @@
     <h4>Musikgesellschaften</h4>
     <div class="row">
         <div class="col-md-4 my-1">
-            <a href="http://mgbryscheralp.ch/wp/" target="_blank" class="btn btn-outline-primary">
+            <a href="https://mgbryscheralp.ch/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/mund.jpg" alt="MG Bryscheralp" class="link-image">
                 <div class="caption">
-                    MG &laquo;Bryscheralp&raquo; Mund
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Bryscheralp&raquo; Mund
                 </div>
             </a>
         </div>
@@ -50,7 +51,8 @@
             <a href="https://www.mg-belalp.ch/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/naters.jpg" alt="MG Belalp" class="link-image">
                 <div class="caption">
-                    MG &laquo;Belalp&raquo; Naters
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Belalp&raquo; Naters
                 </div>
             </a>
         </div>
@@ -58,7 +60,8 @@
             <a href="https://www.stadtmusik-saltina.ch/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/brig.jpg" alt="Stadtmusik Saltina" class="link-image">
                 <div class="caption">
-                    BO Stadtmusik &laquo;Saltina&raquo; Brig
+                    <abbr title="Blasorchester" style="text-decoration: none;">BO</abbr>
+                    Stadtmusik &laquo;Saltina&raquo; Brig
                 </div>
             </a>
         </div>
@@ -68,7 +71,8 @@
             <a href="https://www.mgsaflischtermen.com/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/termen.jpg" alt="MG Saflisch" class="link-image"">
                 <div class="caption">
-                    MG &laquo;Saflisch&raquo; Termen
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Saflisch&raquo; Termen
                 </div>
             </a>
         </div>
@@ -77,7 +81,8 @@
                target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/eggerberg.jpg" alt="MG Findleralp" class="link-image">
                 <div class="caption">
-                    MG &laquo;Findleralp&raquo; Eggerberg
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Findleralp&raquo; Eggerberg
                 </div>
             </a>
         </div>
@@ -85,7 +90,8 @@
             <a href="https://www.mgeintracht.ch/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/moerel-filet.jpg" alt="MG Eintracht" class="link-image">
                 <div class="caption">
-                    MG &laquo;Eintracht&raquo; Mörel-Filet
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Eintracht&raquo; Mörel-Filet
                 </div>
             </a>
         </div>
@@ -95,7 +101,8 @@
             <a href="http://www.mg-simplon.ch/" target="_blank" class="btn btn-outline-primary">
                 <img src="src/bands/ried-brig.jpg" alt="MG Simplon" class="link-image">
                 <div class="caption">
-                    MG &laquo;Simplon&raquo; Ried-Brig
+                    <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
+                    &laquo;Simplon&raquo; Ried-Brig
                 </div>
             </a>
         </div>

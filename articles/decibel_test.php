@@ -140,8 +140,8 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th>Laut</th>
                     <th>Leise</th>
+                    <th>Laut</th>
                     <th>Normal</th>
                 </tr>
             </thead>

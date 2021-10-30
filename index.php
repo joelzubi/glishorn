@@ -34,21 +34,61 @@
 <?php include 'templates/unofficial_alert.php'?>
 
 <!-- Corona alert -->
-<div id="coronaAlert" class="jumbotron-fluid py-4 mb-3 bg-danger text-white">
+<div id="coronaAlert" class="jumbotron-fluid py-4 mb-3 bg-info text-white">
     <div class="container">
-        <h4>Coronavirus</h4>
-        <p>Aufgrund der aktuellen Lage wurden sämtliche Auftritte der
-            <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn und
-            <abbr title="Jugendmusik" style="text-decoration: none;">JM</abbr> Glis  abgesagt.
-            Dazu gehören kirchliche Auftritte wie Firmung und Allerheiligen sowie unser Winterkonzert in der
-            Wallfahrtskirche, das für den <time datetime="2020-11-29 18:00">29. November</time>  geplant war.</p>
-        <p>Auch der Probebetrieb ist eingeschränkt. Geprobt wird nur sitzend, in kleinen
-            Gruppen und unter Einhaltung der nötigen Massnahmen wie Abstandhalten.</p>
+        <h4 class="my-3">Neustart nach Coronapause</h4>
+        <p>Nach einer langen Zwangspause freuen sich die
+            <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
+            und die
+            <abbr title="Jugendmusik" style="text-decoration: none;">JM</abbr> Glis,
+            wieder gemeinsam zu musizieren.</p>
+        <p>Nach wie vor gelten Vorsichtsmassnahmen sowie Zertifikatspfilcht an allen Proben und Anlässen.</p>
     </div>
 </div>
 
 <!-- News box -->
 <div id="news" class="container">
+    <div class="row">
+
+        <!-- Mozart -->
+        <div class="col-lg-6">
+            <div class="card my-2">
+                <img class="card-img-top" src="src/mozart/logo.png" alt="Plakat Glishorn spielt Mozart"
+                     style="max-height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-title">Die &laquo;Glishorn&raquo; spielt Mozart</h4>
+                    <p class="card-text">
+                        Wenn Proben im Orchester nicht möglich sind, musizieren wir halt in Kleingruppen.
+                        Unser Konzert im Sommer 2021 fand vor einem virtuellen Publikum statt.
+                        9 Ensembles der
+                        <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
+                        präsentieren verschiedene Variationen der Musik von
+                        <abbr title="Wolfgang" style="text-decoration: none;">W.</abbr>
+                        <abbr title="Amadeus" style="text-decoration: none;">A.</abbr> Mozart.
+                    </p>
+                    <a href="articles/mozart.php" class="card-link stretched-link">Jetzt anhören</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decibel experiment -->
+        <div class="col-lg-6">
+            <div class="card my-2">
+                <img class="card-image-top" src="src/decibel_test/title_picture.jpg" alt="Lärmbelastung"
+                     style="max-height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-title">Wie laut ist eigentlich Musik?</h4>
+                    <p class="card-text">
+                        Zu viel Lärmbelastung kann das Gehör schädigen.
+                        Aber wie laut ist ein Musikinstrument oder gar ein ganzes Blasorchester?
+                        Wir haben den Selbsttest gemacht und Erstaunliches festgestellt.
+                    </p>
+                    <a href="articles/decibel_test.php" class="card-link stretched-link">Zum Experiment</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="row">
 
         <!-- Quarantine music -->
@@ -68,26 +108,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Decibel experiment -->
-        <div class="col-lg-6">
-            <div class="card my-2">
-                <img class="card-image-top" src="src/decibel_test/title_picture.jpg" alt="Lärmbelastung"
-                    style="max-height: 300px;">
-                <div class="card-body">
-                    <h4 class="card-title">Wie laut ist eigentlich Musik?</h4>
-                    <p class="card-text">
-                        Zu viel Lärmbelastung kann das Gehör schädigen.
-                        Aber wie laut ist ein Musikinstrument oder gar ein ganzes Blasorchester?
-                        Wir haben den Selbsttest gemacht und Erstaunliches festgestellt.
-                    </p>
-                    <a href="articles/decibel_test.php" class="card-link stretched-link">Zum Experiment</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
 
         <!-- JM Glis in Burgdorf -->
         <div class="col-lg-6">

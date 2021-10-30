@@ -35,7 +35,7 @@
 
 <!-- Google Calendar -->
 <div class="container">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23F6BF26&amp;ctz=Europe%2FZurich&amp;src=am1xdTltaG9xODFjbTRwYzJhNzc0dGIydWo1MWEzdjZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%238E24AA&amp;hl=de&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;title=Musikgesellschaft%20Glishorn&amp;mode=AGENDA"
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23f2e4b5&ctz=Europe%2FZurich&showTabs=0&showPrint=0&showDate=1&showTz=0&showCalendars=0&showNav=1&showTitle=1&mode=MONTH&hl=de&title=MG%20Glishorn&src=am1xdTltaG9xODFjbTRwYzJhNzc0dGIydWo1MWEzdjZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238E24AA"
             style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 
