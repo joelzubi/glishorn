@@ -47,7 +47,7 @@
         Die <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn ist Mitglied des
         <a href="https://www.kmvw.ch/de/mitglieder/verbaende" target="_blank">Bezirksmusikverbands Brig</a>,
         des <a href="https://www.omv-vs.ch/" target="_blank">Oberwalliser Musikverbands</a> und des
-        <a href="https://www.windband.ch/de/home/" target="_blank">Schweizerischen Blasmusikverbands</a>.
+        <a href="https://www.windband.ch/de/home/" target="_blank">Schweizer Blasmusikverbands</a>.
     </p>
 </div>
 
