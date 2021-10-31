@@ -77,9 +77,9 @@
             </a>
         </div>
         <div class="col-md-4 my-1">
-            <a href="https://www.1815.ch/rhonezeitung/zeitung/region/die-gesellige-musikgesellschaft-aus-eggerberg-90867/"
+            <a href="https://findneralp.ch/"
                target="_blank" class="btn btn-outline-primary">
-                <img src="src/bands/eggerberg.jpg" alt="MG Findleralp" class="link-image">
+                <img src="src/bands/eggerberg.png" alt="MG Findleralp" class="link-image">
                 <div class="caption">
                     <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
                     &laquo;Findleralp&raquo; Eggerberg
@@ -130,7 +130,7 @@
                 </a>
         </div>
         <div class="col-md-4 my-1">
-                <a href="https://www.1815.ch/rhonezeitung/zeitung/region/erfolgreiche-nachwuchsarbeit/"
+                <a href="https://www.mg-belalp.ch/jugendmusikschule/"
                    target="_blank" class="btn btn-outline-primary">
                     <img src="src/bands/jm_naters.jpg" alt="JM Belalp" class="link-image">
                     <div class="caption">
