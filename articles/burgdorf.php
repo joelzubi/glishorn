@@ -29,7 +29,6 @@
 <body>
 <?php include '../templates/header.php'?>
 <?php include '../templates/navbar_article.php' ?>
-<?php include '../templates/unofficial_alert.php'?>
 
 <!-- Article -->
 <div class="container">

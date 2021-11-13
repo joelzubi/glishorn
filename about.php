@@ -31,7 +31,6 @@
 <div class='container'>
     <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
 </div>
-<?php include 'templates/unofficial_alert.php'?>
 
 <!-- Description of MG Glishorn -->
 <div class="container">

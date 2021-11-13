@@ -31,7 +31,6 @@
 <div class='container'>
     <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
 </div>
-<?php include 'templates/unofficial_alert.php'?>
 
 <!-- Corona alert -->
 <div id="coronaAlert" class="jumbotron-fluid py-4 mb-3 bg-info text-white">

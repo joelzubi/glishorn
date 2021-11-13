@@ -31,7 +31,6 @@
 <div class='container'>
     <h1>Kalender</h1>
 </div>
-<?php include 'templates/unofficial_alert.php'?>
 
 <!-- Google Calendar -->
 <div class="container">

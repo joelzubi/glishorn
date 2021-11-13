@@ -32,7 +32,6 @@
 <div class='container'>
     <h1>Links</h1>
 </div>
-<?php include 'templates/unofficial_alert.php'?>
 
 <!-- Wind bands -->
 <div class="container my-3">

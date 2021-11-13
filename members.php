@@ -31,7 +31,6 @@
 <div class='container'>
     <h1>Mitglieder</h1>
 </div>
-<?php include 'templates/unofficial_alert.php'?>
 
 <div class="container">
     <ul class="nav nav-pills" role="tablist">
