@@ -49,6 +49,24 @@
 <div id="news" class="container">
     <div class="row">
 
+        <!-- Konzert Liebespaare 2021 -->
+        <div class="col-lg-6">
+            <div class="card my-2">
+                <img class="card-img-top" src="src/liebespaare/plakat.png" alt="Flyer Winterkonzert 2021"
+                     style="max-height: 300px;">
+                <div class="card-body">
+                    <h4 class="card-title">5. Dezember, Kirche Glis: &laquo;Liebespaare&raquo;</h4>
+                    <p class="card-text">
+                        Die <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
+                        lädt ein zum Konzert in der Wallfahrtskirche.
+                        Unter dem Titel &laquo;Liebespaare&raquo; präsentieren wir musikalisch aufgearbeitete
+                        Liebesgeschichten von Richard Wagner, Camille Saint-Saëns, George Gershwin und anderen.
+                    </p>
+                    <a href="articles/liebespaare.php" class="card-link stretched-link">Details</a>
+                </div>
+            </div>
+        </div>
+
         <!-- Mozart -->
         <div class="col-lg-6">
             <div class="card my-2">
@@ -70,10 +88,13 @@
             </div>
         </div>
 
+    </div>
+    <div class="row">
+
         <!-- Decibel experiment -->
         <div class="col-lg-6">
             <div class="card my-2">
-                <img class="card-image-top" src="src/decibel_test/title_picture.jpg" alt="Lärmbelastung"
+                <img class="card-image-top" src="src/decibel_test/title_picture.png" alt="Lärmbelastung"
                      style="max-height: 300px;">
                 <div class="card-body">
                     <h4 class="card-title">Wie laut ist eigentlich Musik?</h4>
@@ -87,13 +108,10 @@
             </div>
         </div>
 
-    </div>
-    <div class="row">
-
         <!-- Quarantine music -->
         <div class="col-lg-6">
             <div class="card my-2">
-                <img class="card-img-top" src="src/quarantine/tromboline.png" alt="Gruppenfoto Jugendmusik Glis"
+                <img class="card-img-top" src="src/quarantine/tromboline.png" alt="Tromboline"
                      style="height: 300px;">
                 <div class="card-body">
                     <h4 class="card-title">Musik trotz Corona</h4>
@@ -108,10 +126,13 @@
             </div>
         </div>
 
+    </div>
+    <div class="row">
+
         <!-- JM Glis in Burgdorf -->
         <div class="col-lg-6">
             <div class="card my-2">
-                <img class="card-img-top" src="src/burgdorf/group.jpg" alt="Gruppenfoto Jugendmusik Glis"
+                <img class="card-img-top" src="src/burgdorf/group.png" alt="Gruppenfoto Jugendmusik Glis"
                      style="max-height: 300px;">
                 <div class="card-body">
                     <h4 class="card-title">Die JM Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h4>
