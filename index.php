@@ -37,9 +37,9 @@
     <div class="container">
         <h4 class="my-3">Neustart nach Coronapause</h4>
         <p>Nach einer langen Zwangspause freuen sich die
-            <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
+            <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>&nbsp;Glishorn
             und die
-            <abbr title="Jugendmusik" style="text-decoration: none;">JM</abbr> Glis,
+            <abbr title="Jugendmusik" style="text-decoration: none;">JM</abbr>&nbsp;Glis,
             wieder gemeinsam zu musizieren.</p>
         <p>Nach wie vor gelten Vorsichtsmassnahmen sowie Zertifikatspfilcht an allen Proben und Anlässen.</p>
     </div>
@@ -55,13 +55,13 @@
                 <img class="card-img-top" src="src/liebespaare/plakat.png" alt="Flyer Winterkonzert 2021"
                      style="max-height: 300px;">
                 <div class="card-body">
-                    <h4 class="card-title">5. Dezember, Kirche Glis: &laquo;Liebespaare&raquo;</h4>
+                    <h4 class="card-title"><time datetime="2021-12-05 17:00">5.&nbsp;Dezember</time>,
+                        Kirche Glis: &laquo;Liebespaare&raquo;&nbsp;&#128149;</h4>
                     <p class="card-text">
                         Die <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
                         lädt ein zum Konzert in der Wallfahrtskirche.
                         Unter dem Titel &laquo;Liebespaare&raquo; präsentieren wir musikalisch aufgearbeitete
-                        Liebesgeschichten von Richard Wagner, Camille Saint-Saëns, George Gershwin und anderen.
-                    </p>
+                        Liebesgeschichten von Richard Wagner, Camille Saint-Saëns, George Gershwin und anderen.</p>
                     <a href="articles/liebespaare.php" class="card-link stretched-link">Details</a>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                 <img class="card-image-top" src="src/decibel_test/title_picture.png" alt="Lärmbelastung"
                      style="max-height: 300px;">
                 <div class="card-body">
-                    <h4 class="card-title">Wie laut ist eigentlich Musik?</h4>
+                    <h4 class="card-title">Wie laut ist eigentlich Musik? 🎧</h4>
                     <p class="card-text">
                         Zu viel Lärmbelastung kann das Gehör schädigen.
                         Aber wie laut ist ein Musikinstrument oder gar ein ganzes Blasorchester?
@@ -135,12 +135,14 @@
                 <img class="card-img-top" src="src/burgdorf/group.png" alt="Gruppenfoto Jugendmusik Glis"
                      style="max-height: 300px;">
                 <div class="card-body">
-                    <h4 class="card-title">Die JM Glis am Eidgenössischen Jugendmusikfest in Burgdorf</h4>
+                    <h4 class="card-title">Die JM&nbsp;Glis am Eidgenössischen Jugendmusikfest in Burgdorf&nbsp;🎉</h4>
                     <p class="card-text">
-                        Am Schweizer Jugendmusikfest in Burgdorf 2019 konnte die Jugendmusik Glis so richtig abräumen.
-                        Sie erreichte den 1. Platz in der Kategorie Konzert Harmonie Oberstufe mit 94 Punkten sowie den
-                        1. Platz in der Kategorie Parademusik M mit 93 Punkten. Hier der Bericht des Präsidenten über das
-                        "historische" Wochenende vom <time datetime="2019-09-21 14:00">21./22. September</time>.
+                        Am Schweizer Jugendmusikfest in Burgdorf&nbsp;2019 konnte die Jugendmusik&nbsp;Glis so richtig
+                        abräumen.
+                        Sie erreichte den 1.&nbsp;Platz in der Kategorie Konzert Harmonie Oberstufe mit 94&nbsp;Punkten
+                        sowie den 1.&nbsp;Platz in der Kategorie Parademusik M mit 93&nbsp;Punkten.
+                        Hier der Bericht des Präsidenten über das "historische" Wochenende vom
+                        <time datetime="2019-09-21 14:00">21./22.&nbsp;September</time>.
                     </p>
                     <a href="articles/burgdorf.php" class="card-link stretched-link">Zum Bericht</a>
                 </div>
