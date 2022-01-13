@@ -1,9 +1,36 @@
-#news > div.row > div > div.card {
+.animated {
+}
+
+.animated span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.animated span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.animated:hover span {
+    padding-right: 25px;
+}
+
+.animated:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.hover-box {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#news > div.row > div > div.card:hover {
+.hover-box:hover {
     opacity: 0.7;
 }
