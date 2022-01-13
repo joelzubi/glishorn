@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>#Burgdorf19 | JM Glis</title>
-    <link rel="icon" href="../src/index_images/brand.jpeg" type="image/x-icon">
+    <link rel="icon" href="../src/index_images/brand.jpg" type="image/x-icon">
 
     <!-- For responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

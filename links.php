@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Links | MG Glishorn</title>
-    <link rel="icon" href="src/index_images/brand.jpeg" type="image/x-icon">
+    <link rel="icon" href="src/index_images/brand.jpg" type="image/x-icon">
 
     <!-- For responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,7 +78,7 @@
         <div class="col-md-4 my-1">
             <a href="https://findneralp.ch/"
                target="_blank" class="btn btn-outline-primary">
-                <img src="src/bands/eggerberg.png" alt="MG Findleralp" class="link-image">
+                <img src="src/bands/eggerberg.jpg" alt="MG Findleralp" class="link-image">
                 <div class="caption">
                     <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
                     &laquo;Findleralp&raquo; Eggerberg
@@ -87,7 +87,7 @@
         </div>
         <div class="col-md-4 my-1">
             <a href="https://www.mgeintracht.ch/" target="_blank" class="btn btn-outline-primary">
-                <img src="src/bands/moerel-filet.jpg" alt="MG Eintracht" class="link-image">
+                <img src="src/bands/moerel_filet.jpg" alt="MG Eintracht" class="link-image">
                 <div class="caption">
                     <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
                     &laquo;Eintracht&raquo; Mörel-Filet
@@ -98,7 +98,7 @@
     <div class="row">
         <div class="col-md-4 my-1">
             <a href="http://www.mg-simplon.ch/" target="_blank" class="btn btn-outline-primary">
-                <img src="src/bands/ried-brig.jpg" alt="MG Simplon" class="link-image">
+                <img src="src/bands/ried_brig.jpg" alt="MG Simplon" class="link-image">
                 <div class="caption">
                     <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr>
                     &laquo;Simplon&raquo; Ried-Brig
@@ -122,7 +122,7 @@
         </div>
         <div class="col-md-4 my-1">
                 <a href="https://www.jm-brig.ch/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/jm_brig.jpeg" alt="JM Brig" class="link-image">
+                    <img src="src/bands/jm_brig.jpg" alt="JM Brig" class="link-image">
                     <div class="caption">
                         Jugendmusik Brig
                     </div>
@@ -178,7 +178,7 @@
         <div class="col-md-4 my-1">
             <div class="thumbnail">
                 <a href="https://www.windband.ch/de/home/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/sbv.png" alt="SBV" class="link-image">
+                    <img src="src/bands/sbv.jpg" alt="SBV" class="link-image">
                     <div class="caption">
                         Schweizer Blasmusikverband
                     </div>
@@ -188,7 +188,7 @@
         <div class="col-md-4 my-1">
             <div class="thumbnail">
                 <a href="https://www.kmvw.ch/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/kmvw.png" alt="KMVW" class="link-image">
+                    <img src="src/bands/kmvw.jpg" alt="KMVW" class="link-image">
                     <div class="caption">
                         Kantonaler Musikverband Wallis
                     </div>
@@ -198,7 +198,7 @@
         <div class="col-md-4 my-1">
             <div class="thumbnail">
                 <a href="https://www.omv-vs.ch/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/omv.png" alt="OMV" class="link-image">
+                    <img src="src/bands/omv.jpg" alt="OMV" class="link-image">
                     <div class="caption">
                         Oberwalliser Musikverband
                     </div>
@@ -227,7 +227,7 @@
         <div class="col-md-4 my-1">
             <div class="thumbnail">
                 <a href="https://www.amovisp.ch/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/amo.png" alt="AMO" class="link-image">
+                    <img src="src/bands/amo.jpg" alt="AMO" class="link-image">
                     <div class="caption">
                         Allgemeine Musikschule Oberwallis
                     </div>

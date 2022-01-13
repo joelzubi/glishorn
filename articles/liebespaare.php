@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Winterkonzert | MG Glishorn</title>
-    <link rel="icon" href="../src/index_images/brand.jpeg" type="image/x-icon">
+    <link rel="icon" href="../src/index_images/brand.jpg" type="image/x-icon">
 
     <!-- For responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -138,7 +138,7 @@
 
     <!-- Poster -->
     <div class="container mt-3" style="position: relative; max-width: 860px;">
-        <img class="img-fluid rounded mx-auto d-block" src="../src/liebespaare/flyer_s_1.jpeg" alt="Poster"
+        <img class="img-fluid rounded mx-auto d-block" src="../src/liebespaare/flyer_seite_1.jpg" alt="Poster"
             style="width: 100%;">
         <a href="https://fb.me/e/OYoHuWFD" target="_blank" class="btn btn-primary"
            style="position: absolute; bottom: 5%; right: 10%;">

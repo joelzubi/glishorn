@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
     <a class="navbar-brand" href="..">
-        <img src="../src/index_images/brand.jpeg" alt="MG Glishorn Logo" style="width: 64px">
+        <img src="../src/index_images/brand.jpg" alt="MG Glishorn Logo" style="width: 64px">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
