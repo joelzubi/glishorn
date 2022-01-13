@@ -145,6 +145,14 @@
     <h4>Bands im Oberwallis</h4>
     <div class="row">
         <div class="col-md-4 my-1">
+            <a href="https://www.modernwheatbeat.com/" target="_blank" class="btn btn-outline-primary">
+                <img src="src/bands/modern_wheat_beat.jpg" alt="Modern Wheat Beat" class="link-image">
+                <div class="caption">
+                    Modern Wheat Beat
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 my-1">
                 <a href="https://www.soundonstreet.ch/" target="_blank" class="btn btn-outline-primary">
                     <img src="src/bands/sos.jpg" alt="SOS" class="link-image">
                     <div class="caption">
@@ -157,14 +165,6 @@
                     <img src="src/bands/malonys.jpg" alt="Tony Malony's" class="link-image">
                     <div class="caption">
                         Tony Malony's
-                    </div>
-                </a>
-        </div>
-        <div class="col-md-4 my-1">
-                <a href="https://www.modernwheatbeat.com/" target="_blank" class="btn btn-outline-primary">
-                    <img src="src/bands/modern_wheat_beat.jpg" alt="Modern Wheat Beat" class="link-image">
-                    <div class="caption">
-                        Modern Wheat Beat
                     </div>
                 </a>
         </div>
