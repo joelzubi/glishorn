@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Winterkonzert | MG Glishorn</title>
-    <link rel="icon" href="../src/index_images/brand.jpg" type="image/x-icon">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../src/index_images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../src/index_images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/index_images/favicon-16x16.png">
+    <link rel="manifest" href="../src/index_images/site.webmanifest">
 
     <!-- For responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
