@@ -54,24 +54,6 @@
 <div id="news" class="container">
     <div class="row">
 
-        <!-- Konzert Liebespaare 2021 -->
-        <div class="col-lg-6">
-            <div class="card my-2">
-                <img class="card-img-top" src="src/liebespaare/plakat.jpg" alt="Flyer Winterkonzert 2021"
-                     style="max-height: 300px;">
-                <div class="card-body">
-                    <h4 class="card-title"><time datetime="2021-12-05 17:00">5.&nbsp;Dezember</time>,
-                        Kirche Glis: &laquo;Liebespaare&raquo;&nbsp;&#128149;</h4>
-                    <p class="card-text">
-                        Die <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
-                        lädt ein zum Konzert in der Wallfahrtskirche.
-                        Unter dem Titel &laquo;Liebespaare&raquo; präsentieren wir musikalisch aufgearbeitete
-                        Liebesgeschichten von Richard Wagner, Camille Saint-Saëns, George Gershwin und anderen.</p>
-                    <a href="articles/liebespaare.php" class="card-link stretched-link">Details</a>
-                </div>
-            </div>
-        </div>
-
         <!-- Mozart -->
         <div class="col-lg-6">
             <div class="card my-2">
