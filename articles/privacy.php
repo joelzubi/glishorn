@@ -37,14 +37,24 @@
 <!-- Policy -->
 <div class="container">
     <h1>Cookie-Richtlinien</h1>
+    <div id="personal-notice-before" class="container">
+        <!-- (content set by JS) -->
+    </div>
     <p>Diese Website verwendet möglicherweise Cookies von Drittanbietern, insbesondere Tracking-Cookies,
         zum Beispiel zur Anzeige von Facebook- oder YouTube-Videos oder für Google Kalender.
         Dazu bedarf es Ihrer Zustimmung.</p>
     <p>Ausserdem setzen wir ein Cookie, um die Cookie-Einstellungen zu speichern.
         Dieses wird auch dann gesetzt, wenn Sie Cookies abgelehnt haben.</p>
     <p>Wenn Sie unsere Cookie-Richtlinien akzeptieren, gehen wir für 1 Jahr von Ihrem Einverständnis aus.</p>
+    <div id="personal-notice-after" class="container">
+        <!-- (content set by JS) -->
+    </div>
 </div>
 
 <?php include '../templates/footer.php'?>
+
+<!-- Custom script -->
+<script src="../js/privacy.js"></script>
+
 </body>
 </html>
