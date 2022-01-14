@@ -146,7 +146,7 @@ if (navigator.cookieEnabled) {
     if (getCookie('cookiesDisabled') === 'false') {
         activateCookieContent();
     } else {
-        if (getCookie('cookiesDisabled') === 'true') {
+        if (getCookie('cookiesDisabled') !== 'true') {
             showCookieBanner();
         }
     }
