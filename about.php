@@ -53,6 +53,9 @@
         des <a href="https://www.omv-vs.ch/" target="_blank">Oberwalliser Musikverbands</a> und des
         <a href="https://www.windband.ch/de/home/" target="_blank">Schweizer Blasmusikverbands</a>.
     </p>
+    <p>
+        Hier finden Sie unsere <a href="articles/privacy.php" target="_blank">Cookie-Richtlinien</a>.
+    </p>
 </div>
 
 <?php include 'templates/footer.php'?>
