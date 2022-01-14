@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
     <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index_header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <!-- jQuery, Popper JS and Bootstrap Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

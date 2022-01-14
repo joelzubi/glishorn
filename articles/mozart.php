@@ -20,6 +20,7 @@
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/mozart.css">
 
     <!-- jQuery, Popper JS and Bootstrap Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -47,11 +48,13 @@
 
     <h3 class="mt-5">Klarinettenquartett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/FVFdi_SiWs4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-klarinettenquartett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/FVFdi_SiWs4" target="_blank">
+                <img src="../src/mozart/klarinettenquartett.jpg" class="img-fluid d-block mx-auto"
+                    alt="Klarinettenquartett">
+                <a href="https://www.youtube.com/embed/FVFdi_SiWs4" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -64,11 +67,13 @@
 
     <h3 class="mt-5">Perkussionsensemble</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/2DkpfTCcZiI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-perkussionsensemble" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/2DkpfTCcZiI" target="_blank">
+                <img src="../src/mozart/perkussionsensemble.jpg" class="img-fluid d-block mx-auto"
+                     alt="Perkussionsensemble">
+                <a href="https://www.youtube.com/embed/2DkpfTCcZiI" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -82,11 +87,13 @@
 
     <h3 class="mt-5">Saxensemble</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/JqiUNBiVIyI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-saxensemble" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/JqiUNBiVIyI" target="_blank">
+                <img src="../src/mozart/saxensemble.jpg" class="img-fluid d-block mx-auto"
+                     alt="Saxensemble">
+                <a href="https://www.youtube.com/embed/JqiUNBiVIyI" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -100,11 +107,13 @@
 
     <h3 class="mt-5">Klarinettenquintett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/v_ZBDnn9YP4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-klarinettenquintett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/v_ZBDnn9YP4" target="_blank">
+                <img src="../src/mozart/klarinettenquintett.jpg" class="img-fluid d-block mx-auto"
+                     alt="Klarinettenquintett">
+                <a href="https://www.youtube.com/embed/v_ZBDnn9YP4" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -117,11 +126,13 @@
 
     <h3 class="mt-5">Blechbläserquintett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/K_3k1jfYdDY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-blechblaeserquintett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/K_3k1jfYdDY" target="_blank">
+                <img src="../src/mozart/blechblaeserquintett.jpg" class="img-fluid d-block mx-auto"
+                     alt="Blechbläserquintett">
+                <a href="https://www.youtube.com/embed/K_3k1jfYdDY" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6 ">
             <ul class="list-group pb-2">
@@ -135,11 +146,13 @@
 
     <h3 class="mt-5">Flötenquartett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/Z9KbFW9mA6o"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-floetenquartett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/Z9KbFW9mA6o" target="_blank">
+                <img src="../src/mozart/floetenquartett.jpg" class="img-fluid d-block mx-auto"
+                     alt="Flötenquartett">
+                <a href="https://www.youtube.com/embed/Z9KbFW9mA6o" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -153,11 +166,13 @@
 
     <h3 class="mt-5">Posaunenquartett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/g8FTcOkFrNs"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-posaunenquartett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/g8FTcOkFrNs" target="_blank">
+                <img src="../src/mozart/posaunenquartett.jpg" class="img-fluid d-block mx-auto"
+                     alt="Posaunenquartett">
+                <a href="https://www.youtube.com/embed/g8FTcOkFrNs" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -171,11 +186,13 @@
 
     <h3 class="mt-5">Brassensemble</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/g8FTcOkFrNs"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-brassensemble" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/WlULpkWGUk0" target="_blank">
+                <img src="../src/mozart/brassensemble.jpg" class="img-fluid d-block mx-auto"
+                     alt="Brassensemble">
+                <a href="https://www.youtube.com/embed/WlULpkWGUk0" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -189,11 +206,13 @@
 
     <h3 class="mt-5">Oboenquartett</h3>
     <div class="row">
-        <div class="col-lg-6 text-center">
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/vP2wQh06j5s"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+        <div id="video-oboenquartett" class="col-lg-6 position-relative text-center">
+            <a href="https://www.youtube.com/embed/vP2wQh06j5s" target="_blank">
+                <img src="../src/mozart/oboenquartett.jpg" class="img-fluid d-block mx-auto"
+                     alt="Oboenquartett">
+                <a href="https://www.youtube.com/embed/vP2wQh06j5s" target="_blank"
+                   class="position-absolute stretched-link fab fa-youtube text-decoration-none youtube-video"></a>
+            </a>
         </div>
         <div class="col-lg-6">
             <ul class="list-group pb-2">
@@ -214,5 +233,9 @@
 </div>
 
 <?php include '../templates/footer.php'?>
+
+<!-- Custom script -->
+<script src="../js/mozart.js"></script>
+
 </body>
 </html>

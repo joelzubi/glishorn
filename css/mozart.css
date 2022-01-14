@@ -1,0 +1,12 @@
+.youtube-video {
+    font-size: 96px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    color: dimgrey;
+}
+
+.youtube-video:hover {
+    color: red;
+}
