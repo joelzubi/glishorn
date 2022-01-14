@@ -234,6 +234,9 @@
 
 <?php include '../templates/footer.php'?>
 
+<!-- End-of-Page element, needed for JS to append HTML element to body -->
+<div id="endOfPage"></div>
+
 <!-- Custom script -->
 <script src="../js/mozart.js"></script>
 
