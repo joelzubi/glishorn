@@ -40,37 +40,22 @@
 <div class="container">
     <ul class="nav nav-pills" role="tablist">
         <li class="nav-item">
-            <a class="nav-link active" data-toggle="pill" href="#activeTable">Aktivmitglieder</a>
+            <a class="nav-link active" data-toggle="pill" href="#sectionTable">Aktivmitglieder</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#sectionTable">Nach Registern</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="pill" href="#conductorTable">Direktion</a>
+            <a class="nav-link" data-toggle="pill" href="#boardTable">Vorstand und Direktion</a>
         </li>
     </ul>
 
     <div class="tab-content my-3">
-        <!-- Active members -->
-        <div id="activeTable" class="container tab-pane active">
-            <?php include 'lists/active_members.php';?>
-        </div>
-
         <!--Sections-->
-        <div id="sectionTable" class="container tab-pane fade">
+        <div id="sectionTable" class="container tab-pane active">
             <?php include 'lists/sections.php';?>
         </div>
 
         <!-- Board -->
         <div id="boardTable" class="container tab-pane fade">
             <?php include 'lists/board.php';?>
-        </div>
-
-        <!-- Conductors -->
-        <div id="conductorTable" class="container tab-pane fade">
             <?php include 'lists/conductors.php';?>
         </div>
     </div>
