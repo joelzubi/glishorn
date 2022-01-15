@@ -95,7 +95,7 @@ function showCookieBanner() {
         '    border-radius: 3px;">\n' +
         '    <span>\n' +
         '        Diese Website verwendet Cookies.\n' +
-        '        <a href="#" class="ml-1 text-decoration-none" style="color: dodgerblue;">\n' +
+        '        <a href="../articles/privacy.php" class="ml-1 text-decoration-none" style="color: dodgerblue;">\n' +
         '            Mehr Informationen\n' +
         '        </a>\n' +
         '    </span>\n' +
