@@ -45,7 +45,8 @@
         Dazu bedarf es Ihrer Zustimmung.</p>
     <p>Ausserdem setzen wir ein Cookie, um die Cookie-Einstellungen zu speichern.
         Dieses wird auch dann gesetzt, wenn Sie Cookies abgelehnt haben.</p>
-    <p>Wenn Sie unsere Cookie-Richtlinien akzeptieren, gehen wir für 1 Jahr von Ihrem Einverständnis aus.</p>
+    <p>Wenn Sie unsere Cookie-Richtlinien akzeptieren, gehen wir für 1 Jahr von Ihrem Einverständnis
+        für sämtliche Cookies auf dieser Website aus.</p>
     <div id="personal-notice-after" class="container">
         <!-- (content set by JS) -->
     </div>
