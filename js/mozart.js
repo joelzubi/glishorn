@@ -150,4 +150,6 @@ if (navigator.cookieEnabled) {
             showCookieBanner();
         }
     }
+} else {
+    activateCookieContent();
 }
