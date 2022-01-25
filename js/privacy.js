@@ -33,7 +33,7 @@ function acceptCookies() {
 
 function showBoxCookiesDisabled() {
     document.getElementById('personal-notice-before').innerHTML = '<div class="alert alert-info">\n' +
-        '            Sie haben Cookies in den Browsereinstellungen deaktiviert.\n' +
+        '            Sie haben Cookies für diese Seite in den Browsereinstellungen deaktiviert.\n' +
         '        </div>';
 }
 

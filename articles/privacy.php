@@ -41,12 +41,13 @@
         <!-- (content set by JS) -->
     </div>
     <p>Diese Website verwendet möglicherweise Cookies von Drittanbietern, insbesondere Tracking-Cookies,
-        zum Beispiel zur Anzeige von Facebook- oder YouTube-Videos oder für Google Kalender.
+        zum Beispiel zur Anzeige von Facebook- oder YouTube-Videos.
         Dazu bedarf es Ihrer Zustimmung.</p>
     <p>Ausserdem setzen wir ein Cookie, um die Cookie-Einstellungen zu speichern.
-        Dieses wird auch dann gesetzt, wenn Sie Cookies abgelehnt haben.</p>
+        Dieses kann auch dann gesetzt werden, wenn Sie Cookies abgelehnt haben.</p>
     <p>Wenn Sie unsere Cookie-Richtlinien akzeptieren, gehen wir für 1 Jahr von Ihrem Einverständnis
-        für sämtliche Cookies auf dieser Website aus.</p>
+        für sämtliche Cookies auf dieser Website aus.
+        Dies gilt jedoch nicht, wenn Cookies für diese Seite in den Browsereinstellungen deaktiviert sind.</p>
     <div id="personal-notice-after" class="container">
         <!-- (content set by JS) -->
     </div>

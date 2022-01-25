@@ -151,5 +151,5 @@ if (navigator.cookieEnabled) {
         }
     }
 } else {
-    activateCookieContent();
+    showCookieBanner();
 }
