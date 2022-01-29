@@ -225,10 +225,10 @@
     <p>Präsident, Dominic Wenger</p>
 
     <div class="row">
-        <div class="col-4">
+        <div class="col">
             <img src="../src/burgdorf/praesident_1.jpg" class="img-fluid" style="object-fit: cover;" alt="Stolzer Präsident">
         </div>
-        <div class="col-8">
+        <div class="col">
             <img src="../src/burgdorf/praesident_2.jpg" class="img-fluid" style="object-fit: cover;" alt="Ehemalige Präsidenten der MG Glishorn">
         </div>
     </div>
