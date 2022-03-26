@@ -38,17 +38,6 @@
     <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
 </div>
 
-<!-- Corona alert -->
-<div id="coronaAlert" class="jumbotron-fluid py-4 mb-3 bg-warning">
-    <div class="container">
-        <h4 class="my-3">Probebetrieb mit Auflagen</h4>
-        <p>Aufgrund der aktuellen Lage proben wir derzeit im 2G-plus-Modus und halten uns an die
-            aktuellen Vorgaben des Bundes.</p>
-        <p>Nichtsdestotrotz hoffen wir auf eine baldige Normalisierung und freuen uns,
-            schon bald wieder vor Publikum ein Programm zum Besten zu geben.</p>
-    </div>
-</div>
-
 <!-- Mozart -->
 <div class="container my-4">
     <div class="card hover-box">
