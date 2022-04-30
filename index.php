@@ -38,6 +38,78 @@
     <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
 </div>
 
+<!-- Mattinee 2022 -->
+<div class="container mb-5">
+    <h2>Matinée-Konzert am <time datetime="2022-05-08 11:00">8. Mai 2022</time></h2>
+
+    <img src="src/matinee/plakat_matineekonzert.jpg" alt="Plakat Mattineekonzert"
+         class="img-fluid mx-auto d-block" style="width: 580px;">
+
+    <p>
+        <strong><cite>Ohne Musik wär' alles nichts</cite> (Wolfgang Amadeus Mozart)</strong> –
+        Dieses Zitat des begnadeten Komponisten Mozart passt sehr gut zu den vergangenen zwei Jahren.
+        Nachdem wir am 5. Mai 2019, <abbr title="das heisst" style="text-decoration: none;">d. h.</abbr>
+        vor drei Jahren unser letztes Matinée-Konzert durchführen durften, herrschte in der folgenden Zeit
+        vor allem eines – Stille.
+        Das kammermusikalische Spiel in kleinen Gruppen hat zwar auch seinen Reiz, ersetzt das Orchesterspiel
+        aber auf die Dauer nicht.
+        Deshalb waren alle überglücklich, dass wir am 5. Dezember 2021 endlich wieder mit einem Konzert vor
+        das Publikum treten durften und umso glücklicher sind wir, dass wir auch das Matinée-Konzert wieder
+        durchführen dürfen.
+    </p>
+    <p>
+        Das diesjährige Programm entführt Sie zu grossen Teilen in nördlichere Gefilde.
+        Der Konzertmarsch <cite>&laquo;Valdres&raquo;</cite>, mit dem das Konzert eröffnet wird, ist ein sehr
+        bekannter norwegischer Marsch.
+        Abgeschlossen wird das Konzert mit dem Werk <cite>&laquo;Life in the Capital City&raquo;</cite>,
+        welches musikalisch Bezug nimmt auf Helsinki, die Hauptstadt (Capital City) von Finnland, und drei Orte
+        in dieser Stadt vertont.
+        Dazwischen steht zweimal Graf Lamoral von Egmond im Mittelpunkt, ein Freiheitskämpfer der Niederlande des
+        16. Jahrhunderts, der sein Vertrauen zum spanischen König mit seiner Exekution bezahlte:
+        dies, einerseits mit Beethovens Variante der bekannten Ouvertüre zur Schauspielmusik des gleichnamigen Dramas
+        von Goethe, andererseits mit einer zeitgenössischen Umsetzung des belgischen Komponisten Bert Appermont.
+        Es wird spannend sein, die beiden musikalischen Varianten der gleichen Geschichte zu vergleichen.
+        Darüber hinaus dürfen wir uns auf <cite>&laquo;Favorita&raquo;</cite> freuen, ein Oboenkonzert von
+        Antonio Pasculli, welches auf Motiven der gleichnamigen Oper von Gaetano Donizetti beruht,
+        dargeboten vom äusserst talentierten jungen Gliser Oboisten Yann Martig.
+        Ein wahrlich bunter Strauss Musik erwartet Sie also!
+    </p>
+    <p>
+        Es würde uns sehr freuen, Sie zu unserem Konzert und dem anschliessenden kulinarischen Teil
+        begrüssen zu dürfen.
+    </p>
+    <p>
+        Ihre Musikgesellschaft Glishorn
+    </p>
+
+    <h2>Konzertprogramm</h2>
+
+    <table class="table table-hover">
+        <tbody>
+        <tr>
+            <td><b>Valdres – Norwegian&nbsp;March</b></td>
+            <td>Johannes&nbsp;Hanssen<br>arr. Glen&nbsp;C.&nbsp;Bainum</td>
+        </tr>
+        <tr>
+            <td><b>La Favorita</b><br>Solist: Yann&nbsp;Martig</td>
+            <td>Antonio&nbsp;Pasculli<br>arr. John Glenesk&nbsp;Mortimer</td>
+        </tr>
+        <tr>
+            <td><b>Ouvertüre zu Egmont (Op.&nbsp;84)</b></td>
+            <td>Ludwig van Beethoven<br>arr. Gerard&nbsp;Posch</td>
+        </tr>
+        <tr>
+            <td><b>Egmont – Symphonic&nbsp;Poem</b></td>
+            <td>Bert&nbsp;Appermont</td>
+        </tr>
+        <tr>
+            <td><b>Life in the Capital&nbsp;City</b></td>
+            <td>Timo&nbsp;Forsström</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
 <!-- Mozart -->
 <div class="container my-4">
     <div class="card hover-box">
