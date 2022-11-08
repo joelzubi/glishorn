@@ -6,9 +6,9 @@
     <title>Kalender | MG Glishorn</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="src/index_images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="src/index_images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="src/index_images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/index_images/temp-w.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/index_images/temp-w.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/index_images/temp-w.png">
     <link rel="manifest" href="src/index_images/site.webmanifest">
 
     <!-- For responsive design -->
