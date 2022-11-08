@@ -34,109 +34,124 @@
 <body>
 <?php include 'templates/header.php'?>
 <?php include 'templates/navbar_main.php' ?>
-<div class='container'>
-    <h1>Musikgesellschaft &laquo;Glishorn&raquo; Glis</h1>
+
+<!-- Winterkonzert 2022 -->
+<div class="container mb-5">
+    <div class="jumbotron text-center"><h1><b>&laquo;Denk-mal&raquo;</b></h1></div>
+    <h2>Winterkonzert der MG Glishorn am <time datetime="2022-12-04 17:00">4. Dezember 2022</time></h2>
+
+    <img src="src/denk_mal/titelbild_wk_22.jpg" alt="Plakat Winterkonzert"
+         class="img-fluid mx-auto d-block" style="width: 580px;">
+
+    <!-- Text -->
+    <div class="container">
+        <div class="container text-center my-4">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseText"
+                    aria-expanded="false" aria-controls="collapseText">Denk-mal!</button>
+        </div>
+        <div class="collapse" id="collapseText">
+            <div class="container">
+                <p>
+                    <b>Denk-mal...</b> – Denkmale begleiten uns auf der ganzen Welt.
+                    Die Vertonungen der Denkmale und Monumente, die im Mittelpunkt des diesjährigen Winterkonzertes stehen,
+                    sollen uns aber auch zum Denken anregen, daher die eher ungewöhnliche Schreibweise «Denk-mal».
+                    Gerade die Adventszeit soll uns immer auch zum Nachdenken anregen,
+                    weshalb das Thema ganz gut in die vorweihnachtliche Zeit passt.
+                </p>
+                <p>
+                    Den Auftakt zum Konzert macht das Werk «A Pedra da Serpe» des spanischen Komponisten José Luis Represas Carrera.
+                    Namengeber der Komposition ist der «Schlangenstein»,
+                    der im äussersten Nordwesten der iberischen Halbinsel in der spanischen Provinz Galizien zu finden ist.
+                    Dabei handelt es sich um eine in Stein gehauene geflügelte Schlange, die wohl keltischen Ursprungs ist,
+                    über der sich aber heute ein christliches Kreuz erhebt.
+                    Somit verbindet sie die keltisch-heidnische Vergangenheit der Region mit dem katholischen Spanien.
+                    Und das versucht der 1970 geborene Komponist in seinem Werk auch darzustellen.
+                </p>
+                <p>
+                    Namengeber des Werkes «Terezìn» des Schweizer Komponisten Mario Bürki ist Terezìn oder auf Deutsch Theresienstadt,
+                    ein Ort, der als Standort des gleichnamigen Konzentrationslager unweigerlich mit der Geschichte des Holocausts,
+                    der Verfolgung und Vernichtung der Juden im Zweiten Weltkrieg verbunden bleiben wird.
+                    Der Komponist besuchte im Frühjahr 2018 Terezin und die zahlreichen Gedenkstätten in der Stadt und der Festung.
+                    Seine Eindrücke versuchte er in seinem Werk, das original für Brass Band geschrieben wurde, zu verarbeiten.
+                    So wie die dahinterstehende Geschichte keine schöne ist, so ist es auch dieses Werk nicht.
+                    Dafür aber umso eindrücklicher.
+                </p>
+                <p>
+                    Eine ganz andere Stimmung verbreitet «In a Monastery Garden», «In einem Mönchsgarten»,
+                    des Engländers Albert W. Ketèlbey.
+                    Inspiriert von einem Besuch im Garten eines südenglischen Benediktinerklosters
+                    verfasst der Komponist 1915 ein Werk der leichten Klassik,
+                    welches die Ruhe und die Abgeschiedenheit von aller weltlichen Heiterkeit in Melodien packt,
+                    die nicht nur Ohrwurmcharakter haben, sondern auch direkt ins Herz gehen.
+                    Nach dem Schrecken des Holocaust ein ruhiges musikalisches Intermezzo, welches wunderbar in die Adventszeit passt.
+                </p>
+                <p>
+                    Den Abschluss bildet das Werk «Sails of Time», «Segel der Zeit»,
+                    des 1947 geborenen amerikanischen Komponisten David R. Gillingham.
+                    Es zelebriert die Geschichte der australischen Stadt Sidney
+                    und nimmt mit dem Titel auch Bezug auf das weltbekannte Opernhaus,
+                    welches vielfach zu den modernen Weltwundern gezählt wird und für sich allein mit seiner Architektur,
+                    die an Segel erinnert, schon ein Denkmal ist.
+                    Von der Zeit der Eingeborenen über die Ankunft der ersten Europäer, meist Sträflinge,
+                    was der Komponist musikalisch durch den Marsch der Sträflinge in ihren Ketten vertont,
+                    über das Wachstum der Stadt mit ihrer widerspenstigen Bevölkerung
+                    und den erlangten Reichtum durch einen wahren Goldrausch führt uns der Komponist bis in die heutige Zeit.
+                    Und immer wieder ertönt dabei das wunderschöne «Sails of Time»-Thema,
+                    welches irgendwie an ein vorbeifahrendes Segelschiff erinnert.
+                    Wir, das heisst die Musikantinnen und Musikanten der Musikgesellschaft Glishorn,
+                    laden Sie herzlich zum Besuch dieses Konzerts ein,
+                    zu einem Moment des Nachdenkens, und wünschen Ihnen einen besinnlichen Advent und frohe Weihnachten.
+                </p>
+                <p>
+                    Ihre Musikgesellschaft Glishorn
+                </p>
+            </div>
+            <div class="container">
+                <h2>Konzertprogramm</h2>
+
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <td><b>A Pedra da Serpe</b></td>
+                        <td>José Luis Represas Carrera</td>
+                    </tr>
+                    <tr>
+                        <td><b>Terezín</b></td>
+                        <td>Mario Bürki</td>
+                    </tr>
+                    <tr>
+                        <td><b>In a Monastery Garden</b></td>
+                        <td>Albert W. Ketèlbey<br>trans. Tohru Takahashi</td>
+                    </tr>
+                    <tr>
+                        <td><b>Sails of Time</b></td>
+                        <td>David R. Gillingham</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- Mattinee 2022 -->
-<div class="container mb-5">
-    <h2>Matinée-Konzert am <time datetime="2022-05-08 11:00">8. Mai 2022</time></h2>
+<!-- BMF 2023 -->
+<div class="container">
+    <h1>Bezirksmusikfest 2023 in Glis</h1>
 
-    <img src="src/matinee/plakat_matineekonzert.jpg" alt="Plakat Mattineekonzert"
+    <img src="src/bmf23/BMF%202023%20Logo%20farbig.png" alt="Bezirksmusikfest Glis"
          class="img-fluid mx-auto d-block" style="width: 580px;">
 
     <p>
-        <strong><cite>Ohne Musik wär' alles nichts</cite> (Wolfgang Amadeus Mozart)</strong> –
-        Dieses Zitat des begnadeten Komponisten Mozart passt sehr gut zu den vergangenen zwei Jahren.
-        Nachdem wir am 5. Mai 2019, <abbr title="das heisst" style="text-decoration: none;">d. h.</abbr>
-        vor drei Jahren unser letztes Matinée-Konzert durchführen durften, herrschte in der folgenden Zeit
-        vor allem eines – Stille.
-        Das kammermusikalische Spiel in kleinen Gruppen hat zwar auch seinen Reiz, ersetzt das Orchesterspiel
-        aber auf die Dauer nicht.
-        Deshalb waren alle überglücklich, dass wir am 5. Dezember 2021 endlich wieder mit einem Konzert vor
-        das Publikum treten durften und umso glücklicher sind wir, dass wir auch das Matinée-Konzert wieder
-        durchführen dürfen.
+        Am Auffahrtswochenende 2023 dürfen wir die Musikfamilie des Bezirks Brig
+        nach 9 Jahren wieder einmal in Glis zum Bezirksmusikfest begrüssen.
+        Neben den 9 Vereinen des Bezirks freut es uns ganz besonders,
+        auch unsere Freunde der Trachtenkapelle Malta aus Kärnten in Österreich bei uns begrüssen zu dürfen.
+        Ein OK unter der Leitung von Stadtrat Daniel Studer hat sich bereits an die Arbeit gemacht,
+        um uns und Glis von der besten Seite präsentieren zu können.
+        Wir hoffen, Sie alle an diesem Wochenende bei uns auf dem Dorfplatz zum Festakt,
+        entlang der Gliserallee beim Einmarsch oder am Freitag und Samstag im Glsergrund
+        auf dem Festareal begrüssen zu können.
     </p>
-    <p>
-        Das diesjährige Programm entführt Sie zu grossen Teilen in nördlichere Gefilde.
-        Der Konzertmarsch <cite>&laquo;Valdres&raquo;</cite>, mit dem das Konzert eröffnet wird, ist ein sehr
-        bekannter norwegischer Marsch.
-        Abgeschlossen wird das Konzert mit dem Werk <cite>&laquo;Life in the Capital City&raquo;</cite>,
-        welches musikalisch Bezug nimmt auf Helsinki, die Hauptstadt (Capital City) von Finnland, und drei Orte
-        in dieser Stadt vertont.
-        Dazwischen steht zweimal Graf Lamoral von Egmond im Mittelpunkt, ein Freiheitskämpfer der Niederlande des
-        16. Jahrhunderts, der sein Vertrauen zum spanischen König mit seiner Exekution bezahlte:
-        dies, einerseits mit Beethovens Variante der bekannten Ouvertüre zur Schauspielmusik des gleichnamigen Dramas
-        von Goethe, andererseits mit einer zeitgenössischen Umsetzung des belgischen Komponisten Bert Appermont.
-        Es wird spannend sein, die beiden musikalischen Varianten der gleichen Geschichte zu vergleichen.
-        Darüber hinaus dürfen wir uns auf <cite>&laquo;Favorita&raquo;</cite> freuen, ein Oboenkonzert von
-        Antonio Pasculli, welches auf Motiven der gleichnamigen Oper von Gaetano Donizetti beruht,
-        dargeboten vom äusserst talentierten jungen Gliser Oboisten Yann Martig.
-        Ein wahrlich bunter Strauss Musik erwartet Sie also!
-    </p>
-    <p>
-        Es würde uns sehr freuen, Sie zu unserem Konzert und dem anschliessenden kulinarischen Teil
-        begrüssen zu dürfen.
-    </p>
-    <p>
-        Ihre Musikgesellschaft Glishorn
-    </p>
-
-    <h2>Konzertprogramm</h2>
-
-    <table class="table table-hover">
-        <tbody>
-        <tr>
-            <td><b>Valdres – Norwegian&nbsp;March</b></td>
-            <td>Johannes&nbsp;Hanssen<br>arr. Glen&nbsp;C.&nbsp;Bainum</td>
-        </tr>
-        <tr>
-            <td><b>La Favorita</b><br>Solist: Yann&nbsp;Martig</td>
-            <td>Antonio&nbsp;Pasculli<br>arr. John Glenesk&nbsp;Mortimer</td>
-        </tr>
-        <tr>
-            <td><b>Ouvertüre zu Egmont (Op.&nbsp;84)</b></td>
-            <td>Ludwig van Beethoven<br>arr. Gerard&nbsp;Posch</td>
-        </tr>
-        <tr>
-            <td><b>Egmont – Symphonic&nbsp;Poem</b></td>
-            <td>Bert&nbsp;Appermont</td>
-        </tr>
-        <tr>
-            <td><b>Life in the Capital&nbsp;City</b></td>
-            <td>Timo&nbsp;Forsström</td>
-        </tr>
-        </tbody>
-    </table>
-</div>
-
-<!-- Mozart -->
-<div class="container my-4">
-    <div class="card hover-box">
-        <div class="card-body">
-            <div class="row">
-                <div class="col-xl-8 position-relative">
-                    <h3>Die &laquo;Glishorn&raquo; spielt Mozart</h3>
-                    <p>
-                        Im Frühjahr 2021 spielten die Mitglieder der
-                        <abbr title="Musikgesellschaft" style="text-decoration: none;">MG</abbr> Glishorn
-                        in Kleingruppen statt im Orchester.
-                    </p>
-                    <p>
-                        9 Ensembles präsentieren verschiedene Variationen der Musik von
-                        <abbr title="Wolfgang" style="text-decoration: none;">W.</abbr>
-                        <abbr title="Amadeus" style="text-decoration: none;">A.</abbr> Mozart.
-                    </p>
-                </div>
-                <div class="col-xl-4">
-                    <img src="src/mozart/logo.jpg" class="img-fluid d-block mx-auto" alt="Mozart">
-                </div>
-            </div>
-            <a href="articles/mozart.php" class="btn btn-primary card-link stretched-link btn-block animated">
-                <span> 🎥 Hören Sie sich das Resultat hier an! </span>
-            </a>
-        </div>
-    </div>
 </div>
 
 <!-- News box -->
