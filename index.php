@@ -35,7 +35,8 @@
 <?php include 'templates/header.php'?>
 <?php include 'templates/navbar_main.php' ?>
 
-<!-- Winterkonzert 2022 -->
+
+<!-- Winterkonzert 2022 --
 <div class="container mb-5">
     <div class="jumbotron text-center"><h1><b>&laquo;Denk-mal&raquo;</b></h1></div>
     <h2>Winterkonzert der MG Glishorn am <time datetime="2022-12-04 17:00">4. Dezember 2022</time></h2>
@@ -43,7 +44,7 @@
     <img src="src/denk_mal/titelbild_wk_22.jpg" alt="Plakat Winterkonzert"
          class="img-fluid mx-auto d-block" style="width: 580px;">
 
-    <!-- Text -->
+    <!-- Text --
     <div class="container">
         <div class="container text-center my-4">
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseText"
@@ -150,7 +151,7 @@
         um uns und Glis von der besten Seite präsentieren zu können.
         Wir hoffen, Sie alle an diesem Wochenende bei uns auf dem Dorfplatz zum Festakt,
         entlang der Gliserallee beim Einmarsch oder am Freitag und Samstag im Glsergrund
-        auf dem Festareal begrüssen zu können.
+        auf dem Festareal begrüssen zu dürfen.
     </p>
 </div>
 
