@@ -36,21 +36,48 @@
 <?php include 'templates/navbar_main.php' ?>
 
 
-<!-- Winterkonzert 2022 --
-<div class="container mb-5">
-    <div class="jumbotron text-center"><h1><b>&laquo;Denk-mal&raquo;</b></h1></div>
+<!-- Winterkonzert 2022 -->
+<div class="container mb-3">
+    <div class="jumbotron text-center mt-5"><h1><b>&laquo;Denk-mal&raquo;</b></h1></div>
     <h2>Winterkonzert der MG Glishorn am <time datetime="2022-12-04 17:00">4. Dezember 2022</time></h2>
 
     <img src="src/denk_mal/titelbild_wk_22.jpg" alt="Plakat Winterkonzert"
          class="img-fluid mx-auto d-block" style="width: 580px;">
 
-    <!-- Text --
+    <!-- Details -->
     <div class="container">
         <div class="container text-center my-4">
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseText"
                     aria-expanded="false" aria-controls="collapseText">Denk-mal!</button>
         </div>
         <div class="collapse" id="collapseText">
+            <!-- Programm -->
+            <div class="container">
+                <h2>Konzertprogramm</h2>
+
+                <table class="table table-hover">
+                    <tbody>
+                    <tr>
+                        <td><b>A Pedra da Serpe</b></td>
+                        <td>José Luis Represas Carrera</td>
+                    </tr>
+                    <tr>
+                        <td><b>Terezín</b></td>
+                        <td>Mario Bürki</td>
+                    </tr>
+                    <tr>
+                        <td><b>In a Monastery Garden</b></td>
+                        <td>Albert W. Ketèlbey<br>trans. Tohru Takahashi</td>
+                    </tr>
+                    <tr>
+                        <td><b>Sails of Time</b></td>
+                        <td>David R. Gillingham</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Brief -->
             <div class="container">
                 <p>
                     <b>Denk-mal...</b> – Denkmale begleiten uns auf der ganzen Welt.
@@ -96,7 +123,8 @@
                     Von der Zeit der Eingeborenen über die Ankunft der ersten Europäer, meist Sträflinge,
                     was der Komponist musikalisch durch den Marsch der Sträflinge in ihren Ketten vertont,
                     über das Wachstum der Stadt mit ihrer widerspenstigen Bevölkerung
-                    und den erlangten Reichtum durch einen wahren Goldrausch führt uns der Komponist bis in die heutige Zeit.
+                    und den erlangten Reichtum durch einen wahren Goldrausch führt uns der Komponist
+                    bis in die heutige Zeit.
                     Und immer wieder ertönt dabei das wunderschöne «Sails of Time»-Thema,
                     welches irgendwie an ein vorbeifahrendes Segelschiff erinnert.
                     Wir, das heisst die Musikantinnen und Musikanten der Musikgesellschaft Glishorn,
@@ -106,30 +134,6 @@
                 <p>
                     Ihre Musikgesellschaft Glishorn
                 </p>
-            </div>
-            <div class="container">
-                <h2>Konzertprogramm</h2>
-
-                <table class="table table-hover">
-                    <tbody>
-                    <tr>
-                        <td><b>A Pedra da Serpe</b></td>
-                        <td>José Luis Represas Carrera</td>
-                    </tr>
-                    <tr>
-                        <td><b>Terezín</b></td>
-                        <td>Mario Bürki</td>
-                    </tr>
-                    <tr>
-                        <td><b>In a Monastery Garden</b></td>
-                        <td>Albert W. Ketèlbey<br>trans. Tohru Takahashi</td>
-                    </tr>
-                    <tr>
-                        <td><b>Sails of Time</b></td>
-                        <td>David R. Gillingham</td>
-                    </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
     </div>
