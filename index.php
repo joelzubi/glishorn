@@ -1,46 +1,18 @@
 <?php declare(strict_types=1)?>
-<!DOCTYPE html>
-<html lang="de-CH">
-<head>
-    <meta charset="UTF-8">
-    <title>MG Glishorn</title>
+<?php
+include 'page_builder.php';
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="src/index_images/temp-w.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="src/index_images/temp-w.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="src/index_images/temp-w.png">
-    <link rel="manifest" href="src/index_images/site.webmanifest">
+$page = new Page();
+$page->mainpage();
+$page->dont_show_title();
+$page->set_tab_title('MG Glishorn');
 
-    <!-- For responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-    <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="css/index_header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- jQuery, Popper JS and Bootstrap Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
-    <!-- Icon Script -->
-    <script src="https://kit.fontawesome.com/f54a4f4510.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-<?php include 'templates/header.php'?>
-<?php include 'templates/navbar_main.php' ?>
+$page->begin();
+?>
 
 <!-- BMF 2023 -->
 <div class="container">
-    <h1>Bezirksmusikfest 2023 in Glis</h1>
-
-    <img src="src/bmf23/BMF%202023%20Logo%20farbig.png" alt="Bezirksmusikfest Glis"
-         class="img-fluid mx-auto d-block" style="width: 580px;">
+    <h1>Musikgesellschaft Glis</h1>
 
     <p>
         Am Auffahrtswochenende 2023 dürfen wir die Musikfamilie des Bezirks Brig
@@ -53,6 +25,9 @@
         entlang der Gliserallee beim Einmarsch oder am Freitag und Samstag im Glsergrund
         auf dem Festareal begrüssen zu dürfen.
     </p>
+
+    <img src="src/bmf23/BMF%202023%20Logo%20farbig.png" alt="Bezirksmusikfest Glis"
+         class="img-fluid mx-auto d-block" style="width: 580px;">
 </div>
 
 <!-- News box -->
@@ -121,6 +96,4 @@
     </div>
 </div>
 
-<?php include 'templates/footer.php'?>
-</body>
-</html>
+<?php $page->end() ?>
