@@ -123,7 +123,7 @@
             Auch war der Klang in der Höhe offener.
             Meinem Schwager Pascal Vogel liessen wir eines aus Messing giessen.
             Er ist begeistert und will nicht mehr zurück.
-            Der bekannte portugiesische Euphoniumsolist Mauro&nbsp;Martins testete einen unserer ersten Plastikprototypen
+            Der bekannte portugiesische Eufoniumsolist Mauro&nbsp;Martins testete einen unserer ersten Plastikprototypen
             und schrieb:
         </p>
             <blockquote>
