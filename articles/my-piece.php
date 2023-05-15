@@ -125,11 +125,11 @@
             Er ist begeistert und will nicht mehr zurück.
             Der bekannte portugiesische Euphoniumsolist Mauro&nbsp;Martins testete einen unserer ersten Plastikprototypen
             und schrieb:
+        </p>
             <blockquote>
                 <i>&laquo;Das MyPiece-Mundstück kann bei der Flexibilität und dem Tonumfang wirklich helfen.
                     Das Spielgefühl ist etwas anders, aber sehr positiv.&raquo;</i>
             </blockquote>
-        </p>
         <p>
             <b>Wie läuft die Herstellung eines angepassten Mundstücks ab?</b>
         </p>
