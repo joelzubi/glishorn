@@ -14,10 +14,8 @@ $page->begin();
 
 <!-- BMF Friday Video -->
 <?php if (time() < mktime(2, 0, 0, 5, 20, 2023)): ?>
-    <div class="container">
-        <video width="100%" controls style="max-height: 700px">
-            <source src="src/bmf23/BMF_P2_V2.mp4" type="video/mp4">
-        </video>
+    <div class="container mb-5">
+        <iframe width="404" height="719" src="https://www.youtube.com/embed/QZPtT20H_rg?autoplay=1" title="Trailer Freitag Bezirksmusikfest 2023 in Glis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="d-block mx-auto"></iframe>
     </div>
 <?php endif ?>
 
